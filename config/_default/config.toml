@@ -23,7 +23,7 @@ buildFuture = false
 [taxonomies]
   tag = "tags"
   category = "categories"
-  author = "authors"
+  topic = "topics"
   series = "series"
 
 [sitemap]

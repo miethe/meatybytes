@@ -5,7 +5,8 @@ Learn everything about Solutioning
 '''
 Date = 2023-04-10
 author = "Nick Miethe"
-categories = ["Solutions"]
+categories = ["Technical"]
+topics = ["OpenShift"]
 tags = ["Architecture", "Patterns"]
 +++
 

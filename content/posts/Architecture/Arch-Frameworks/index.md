@@ -5,7 +5,8 @@ Learn everything about Architectural Frameworks
 '''
 Date = 2023-04-10
 author = "Nick Miethe"
-categories = ["Solutions"]
+categories = ["Technical"]
+topics = ["OpenShift"]
 tags = ["SOA", "Microservices", "Architecture", "EDA"]
 +++
 

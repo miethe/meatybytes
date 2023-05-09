@@ -11,9 +11,9 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Bytes"
+  name = "All Bytes"
   pageRef = "posts"
-  weight = 10
+  weight = 25
 
 [[main]]
   name = "Other Sites"
@@ -38,15 +38,14 @@
 #  weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "OpenShift"
+  pageRef = "topics/OpenShift"
   weight = 20
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "Topics"
+  pageRef = "topics"
   weight = 30
-
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
@@ -56,7 +55,7 @@
 [[footer]]
   name = "Tags"
   pageRef = "tags"
-  eight = 10
+  weight = 10
 
 [[footer]]
   name = "Categories"
@@ -67,3 +66,4 @@
   name = "GitHub"
   pre = "github"
   url = "https://github.com/miethe"
+  weight = 30
