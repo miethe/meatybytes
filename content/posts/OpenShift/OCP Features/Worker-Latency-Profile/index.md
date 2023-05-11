@@ -12,13 +12,17 @@ author = "Nick Miethe"
 
 ## Summary
 
-I was recently asked about an unexpected new Machine Conf CR which updated the `nodeStatusUpdateFrequency` within a given `KubeletConfig`. This led to a discussion around the **Machine Config Operator** (MCO) and Worker Latency Profiles, and thus to this post.
+Do you often find yourself asking questions like "How do I optimize my OpenShift cluster" or "What is the Machine Config Operator (MCO) in OpenShift"?
 
-In this blog post we will focus on **Worker Latency Profiles** in OpenShift, a feature that helps you optimize your OpenShift cluster for specific network latency requirements. I'll explain what Worker Latency Profiles are, why you might use them in an OpenShift cluster, and how high latency within environments can affect cluster stability. I'll also provide examples of how these profiles might be used and walk through a short demo.
+I was recently asked about an unexpected new Machine Config CR (Custom Resource) in an OpenShift cluster (OCP) which updated the `nodeStatusUpdateFrequency` within a given `KubeletConfig`. This led to a discussion around the **Machine Config Operator** (MCO) and Worker Latency Profiles, and thus to this post.
+
+In this blog post we will focus on **Worker Latency Profiles** in OpenShift, a feature that helps you optimize your *OpenShift Container Platform* (OCP) cluster for specific network latency requirements. I'll explain what Worker Latency Profiles are, why you might use them in an OpenShift cluster, and how high latency within environments can affect cluster stability. I'll also provide examples of how these profiles might be used to optimize your OCP platform and walk through a short demo.
 
 ## What are Worker Latency Profiles
 
 Worker Latency Profiles are a feature in OpenShift that allows you to configure your cluster nodes to better accommodate specific network latency requirements. These profiles are useful in situations where your OpenShift nodes are spread across different geographic locations or when you need to optimize your cluster for certain latency-sensitive workloads.
+
+Side Note: Geographic placement of your clusters can be a crucial parameter when designing the architecture of your OCP clusters! Read more about this and other paradigms within the [OpenShift Architecture](/posts/openshift/architecture/) section.
 
 ## Why use Worker Latency Profiles
 

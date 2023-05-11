@@ -2,6 +2,9 @@
 title: "Choosing the Right Dobsonian Telescope Aperture: A Guide to Common Sizes"
 date: 2023-05-06
 author: "Nick Miethe"
+categories: ["Telescopes"]
+topics: ["Hobbies"]
+tags: ["Dobsonians", "Buying Guide"]
 ---
 
 ## Introduction
