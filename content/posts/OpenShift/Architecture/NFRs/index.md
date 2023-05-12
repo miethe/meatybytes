@@ -1,5 +1,5 @@
 +++
-title = "NFRs"
+title = "Non-Functional Requirements for OpenShift"
 date = 2023-04-20
 author = "Nick Miethe"
 description = '''
@@ -12,7 +12,7 @@ tags = ["OpenShift", "NFRs", "SRE", "DevOps"]
 
 ## Introduction
 
-When you work on a DevOps or SRE team, you're likely to have lists of NFRs to base performance against, or to aide in system designs.
+When you work on a DevOps or SRE team, you're likely to have lists of **Non-Functional Requirements** for OpenShift (NFRs) to base performance against, or to aide in system designs.
 
 This is especially true as a consultant. Coming into customer environments with little insight into the business, the workloads, or the day-to-day experience makes the architecture of their future solutions a blind effort at best. Therefore, well-defined NFRs are vital to driving a successful transformation and maintaining optimal performance long-term.
 
