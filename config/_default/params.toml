@@ -36,7 +36,7 @@ smartTOC = true
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/featured-background.png" # used in: hero, and card
+  homepageImage = "/img/featured-ocp.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = true
@@ -115,13 +115,13 @@ smartTOC = true
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "AIzaSyAlw0Iqc4-P31EPMZUTGkcQjLuuxbjOTSQ"
+  authDomain = "meatybytes-io.firebaseapp.com"
+  projectId = "meatybytes-io"
+  storageBucket = "meatybytes-io.appspot.com"
+  messagingSenderId = "251435463514"
+  appId = "1:251435463514:web:10756419f1d246eaf5f963"
+  measurementId = "G-V65XGE7PRQ"
 
 [fathomAnalytics]
   # site = "ABC12345"

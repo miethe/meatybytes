@@ -14,7 +14,7 @@ dateFormat = "2 January 2006"
 
 [author]
   name = "Nick 'Meaty' Miethe"
-  image = "img/nick-profile.png"
+  image = "img/caricature-miethe-explorer.png"
   headline = "Learn like you eat, one *byte* at a time"
   bio = "OCP Advocate, Serial Hobbyist"
   links = [
