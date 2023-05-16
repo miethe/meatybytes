@@ -1,7 +1,7 @@
 ---
 
 title: "Setting Up a Self-hosted Quay Registry in a Private OpenShift Cluster"
-date: 2023-05-15
+date: 2023-04-15
 author: "Nick Miethe"
 categories: ["Technical"]
 topics: ["OpenShift"]

@@ -1,7 +1,7 @@
 ---
 
 title: "Setting Up a Private Registry in a Private OpenShift Cluster"
-date: 2023-05-14
+date: 2023-04-14
 author: "Nick Miethe"
 categories: ["Technical"]
 topics: ["OpenShift"]

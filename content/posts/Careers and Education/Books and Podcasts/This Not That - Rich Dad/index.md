@@ -3,7 +3,7 @@ title = "Rich Dad, Poor Dad"
 Date = 2023-04-10
 author = "Nick Miethe"
 categories = ["Books"]
-topics = ["Careers and Education"]
+topics = ["Education"]
 tags = ["Finance", "Self-Help"]
 series = ["This, Not That"]
 +++

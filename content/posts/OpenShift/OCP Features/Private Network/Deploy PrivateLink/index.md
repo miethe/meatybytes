@@ -1,6 +1,6 @@
 +++
 title = "Deploying Private ROSA OpenShift Clusters on AWS with PrivateLink"
-date = 2023-05-13
+date = 2023-03-26
 description = '''
 Learn how to deploy ROSA in AWS PrivateLink
 '''

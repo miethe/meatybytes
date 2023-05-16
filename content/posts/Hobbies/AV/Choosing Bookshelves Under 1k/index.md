@@ -6,7 +6,7 @@ author = "Nick Miethe"
 
 ## Background
 
-I've been looking for a new pair of near-field speakers for my office. Many years ago, I made my first foray into passive bookshelves with a fairly low budget. I landed on a pair of [Micca MB42x](https://www.amazon.com/Micca-MB42X-Bookshelf-Speakers-Tweeter/dp/B00E7H8GG2?th=1) w/ a SMSL SA-50 desktop amp. While certainly nothing special, they served their purpose for nearly a decade, considering I usually preferred [Headphones](). However, in my current environment, I find myself using my speakers instead 90% of the time, or more. And as my other audio components, and budget, have improved dramatically, my desktop system was long-ago left in the dust.
+I've been looking for a new pair of near-field speakers for my office. Many years ago, I made my first foray into passive bookshelves with a fairly low budget. I landed on a pair of [Micca MB42x](https://www.amazon.com/Micca-MB42X-Bookshelf-Speakers-Tweeter/dp/B00E7H8GG2?th=1) w/ a SMSL SA-50 desktop amp. While certainly nothing special, they served their purpose for nearly a decade, considering I usually preferred Headphones. However, in my current environment, I find myself using my speakers instead 90% of the time, or more. And as my other audio components, and budget, have improved dramatically, my desktop system was long-ago left in the dust.
 
 ## Search Parameters
 
@@ -44,4 +44,8 @@ Just a few options here!
 
 ## Decision
 
-As I pursued my decision making process, I had several criteria in the front of mind. 1 was aesthetics, considering these speakers would be a key feature of my desk and, thus, office, where I spend most of my time. However, it certainly wasn't the most important.
+As I pursued my decision making process, I had several criteria in the front of mind. One was aesthetics, considering these speakers would be a key feature of my desk and, thus, office, where I spend most of my time. However, it certainly wasn't the most important. Another was size, both of the driver(s) and cabinet, as these are meant to be used for near-field. Of course, the key criteria (outside budget) was the speaker's performance with my preferred music types.
+
+## Conclusion
+
+Unfortunately, I still haven't made my final purchase! However, I have narrowed my choices down to the Focal line of 6.5" drivers, notably the Focal Aria 906. So why the delay? They're difficult to find! Particularly at a decent price. That said, I have a few leads on some great sets, so hopefully I will be updating you here with a review shortly!
