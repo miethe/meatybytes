@@ -2,6 +2,10 @@
 title = "Bookshelf Speakers Around $1k"
 date = 2023-05-06
 author = "Nick Miethe"
+categories = ["Audio"]
+topics = ["Hobbies"]
+tags = ["Cables"]
+series = ["Bookshelf Speakers"]
 +++
 
 ## Background
