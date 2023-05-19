@@ -3,8 +3,8 @@ title: "Exploring AI/ML Tools on OpenShift"
 date: 2023-05-11
 author: Nick Miethe
 tags: ["OpenShift", "Open Data Hub", "Kubeflow", "AI/ML", "Operators"]
-categories: ["Technical", "Guide"]
-topics: ["OpenShift", "Introduction"]
+categories: ["Technical", "Guide", "Introduction"]
+topics: ["OpenShift"]
 series: ["AI/ML OCP Tooling"]
 series_order: 1
 ---

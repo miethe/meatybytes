@@ -1,13 +1,15 @@
 +++
-title = "Solution Architecture"
+title = "Solution Architecture: Designing the Platforms of Tomorrow"
 description = '''
-Learn everything about Solutioning
+Learn everything about Solution Architectures for OpenShift/Kubernetes
 '''
 Date = 2023-04-10
 author = "Nick Miethe"
 categories = ["Technical"]
 topics = ["OpenShift"]
-tags = ["Architecture", "Patterns"]
+tags = ["Architecture", "Patterns", "OpenShift", "Kubernetes"]
+series = ["Solutioning OCP Architectures"]
+series_order = 1
 +++
 
 ## What is Solution Architecture?

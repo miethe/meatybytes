@@ -8,6 +8,8 @@ author = "Nick Miethe"
 categories = ["Technical"]
 topics = ["OpenShift"]
 tags = ["SOA", "Microservices", "Architecture", "EDA"]
+series = ["Solutioning OCP Architectures"]
+series_order = 2
 +++
 
 ## What is an Architectural Framework
