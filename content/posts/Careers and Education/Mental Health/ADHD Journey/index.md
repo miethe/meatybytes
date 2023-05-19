@@ -15,9 +15,7 @@ Adult ADHD is often misunderstood or overlooked. Many people, including myself, 
 
 In this article, I'll share my personal journey of being diagnosed with ADHD as an adult, and how it has both challenged and enhanced my personal and professional life.
 
-{{< gallery >}}
-  <img src="illustration-mind-map-add.png" class="grid-w25 md:grid-w33 xl:grid-w55" />
-{{< /gallery >}}
+![](illustration-mind-map-add.png)
 
 ## The Unexpected Diagnosis
 
@@ -33,9 +31,7 @@ Despite the challenges, many adults with ADHD are high performers. They often ha
 
 However, ADHD can sometimes lead to feelings of being overwhelmed, especially when managing multiple projects or trying to meet high standards of performance. Adult-diagnosis of ADHD has previously been partly attributed to the progression of responsibility for adults.
 
-{{< gallery >}}
-  <img src="illustration-scales-add.png" class="grid-w25 md:grid-w33 xl:grid-w55" />
-{{< /gallery >}}
+![](illustration-scales-add.png)
 
 For me, it became clear post-diagnosis that my ADHD had been a driving force behind my diverse hobbies and the success of my career at BoxBoat/IBM. Prior to treatment, I liked to boast that I could learn any new skill faster than anyone else that I knew. But sticking with it to gain true expertise was much more difficult. Fortunately, treatment has enabled me in my current position in life.
 
