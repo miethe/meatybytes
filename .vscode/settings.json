@@ -4,6 +4,7 @@
         "Knative",
         "Kubeflow",
         "Seldon",
-        "Tekton"
+        "Tekton",
+        "Zigbee"
     ]
 }
