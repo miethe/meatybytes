@@ -54,6 +54,8 @@ Future costs might include upgrades, additional staff training, scaling infrastr
 
 ## Comparing OpenShift and Managed Kubernetes Services
 
+![](ocp-tco.webp)
+
 Once you have a TCO model for OpenShift, you can use a similar approach to create a TCO model for managed Kubernetes services like Amazon EKS. Here's a simplified example:
 
 ### OpenShift TCO
