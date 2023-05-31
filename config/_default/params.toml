@@ -58,6 +58,7 @@ smartTOC = true
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
+  showComments = true
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
   seriesOpened = true
@@ -95,8 +96,9 @@ smartTOC = true
 
 [taxonomy]
   showTermCount = true
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroImage = "/img/featured-ocp.png" # used in: hero, and card
   showBreadcrumbs = false
   showViews = false
   showLikes = false

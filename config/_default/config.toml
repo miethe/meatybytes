@@ -17,6 +17,8 @@ buildFuture = false
 
 googleAnalytics = "G-0VB1122M0S"
 
+disqusShortname = "meatybytes"
+
 [imaging]
   anchor = 'Center'
 
