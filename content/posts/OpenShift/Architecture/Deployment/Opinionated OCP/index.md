@@ -44,7 +44,7 @@ Ansible is another important tool in this space, but is growing into its own pla
 Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. It follows the GitOps principle of using Git as a 'single source of truth' for declarative infrastructure and applications. The **OpenShift GitOps Operator**, based on Argo CD, allows you to manage your applications' lifecycle using Git repositories as the source of truth.
 
 {{< alert "redhat" >}}
-**Progressive Rollouts** Red Hat recently announced a new Operator for OpenShift based on [Argo Rollouts](https://argo-rollouts.readthedocs.io/en/stable/), **OpenShift Progressive Delivery**. Stay tuned for more info!
+**Progressive Rollouts**: Red Hat recently announced a new Operator for OpenShift based on [Argo Rollouts](https://argo-rollouts.readthedocs.io/en/stable/), **OpenShift Progressive Delivery**. Stay tuned for more info!
 {{< /alert >}}
 
 ### VMs: OpenShift Virtualization

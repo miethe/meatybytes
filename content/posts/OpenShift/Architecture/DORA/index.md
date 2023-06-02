@@ -7,12 +7,15 @@ categories:
   - Technical
 topics:
   - OpenShift
+  - Kubernetes
+  - Solution Architecture
 tags:
   - DORA
   - DevOps
   - OpenShift
   - Kubernetes
   - Observability
+  - KPIs
 ---
 
 ## Introduction
@@ -21,7 +24,7 @@ In today's fast-paced world, software development and deployment are critical to
 
 ## What Are DORA Metrics and Why Do They Matter?
 
-DORA metrics are a set of key performance indicators (KPIs) designed to evaluate the effectiveness of DevOps practices in software development and deployment. They were developed by experts from the DevOps Research and Assessment (DORA) team and provide valuable insights into the health and performance of an organization's software delivery process. There are 4 key DORA metrics, outlined below, each falling within 1 of 2 areas within DevOps: Team Velocity or Stability.
+DORA metrics are a set of key performance indicators (KPIs) designed to evaluate the effectiveness of DevOps practices in software development and deployment. They were developed by experts from the DevOps Research and Assessment (DORA) team and provide valuable insights into the health and performance of an organization's software delivery process. There are 4 key DORA metrics, outlined below, each falling within 1 of 2 areas within DevOps: **Team Velocity** or **Stability**.
 
 DORA metrics matter because they can help organizations identify areas of improvement, prioritize changes, and track progress. By monitoring and analyzing these metrics, teams can optimize their software delivery process and ultimately deliver better products and services to their customers.
 

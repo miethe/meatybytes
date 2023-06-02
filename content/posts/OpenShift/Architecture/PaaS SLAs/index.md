@@ -1,9 +1,9 @@
 +++
 title = "The Importance of SLAs in OpenShift/Kubernetes-based PaaS Design and Implementation"
 date = 2023-04-16
-categories = ["Technical"]
-topics = ["OpenShift"]
-tags = ["SLAs", "OpenShift", "Kubernetes", "PaaS", "Cloud", "Architecture"]
+categories = ["Technical", "Introduction"]
+topics = ["OpenShift", "Kubernetes", "Solution Architecture"]
+tags = ["SLAs", "OpenShift", "Kubernetes", "PaaS", "Cloud", "Architecture", "Platform Engineering", "SRE", "DevOps"]
 description = "A deep dive into the significance of Service Level Agreements (SLAs) when designing and implementing OpenShift/Kubernetes-based Platform-as-a-Service (PaaS) solutions, and how to calculate them."
 author = "Nick Miethe"
 draft = false

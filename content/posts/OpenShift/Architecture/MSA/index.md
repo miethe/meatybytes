@@ -1,12 +1,11 @@
 +++
 title = "Deploying a Microservice Architecture on OpenShift"
 date = 2023-05-14
-tags = ["OpenShift", "Microservices", "DevOps"]
-categories = ["Technical", "Introduction"]
+tags = ["OpenShift", "Microservices", "DevOps", "Architecture"]
+categories = ["Technical", "Introduction", "Guide"]
 topics = ["OpenShift"]
 description = "A comprehensive guide on how to deploy a microservice architecture on OpenShift, the leading container orchestration platform."
 author = "Nick Miethe"
-draft = false
 +++
 
 ## Introduction

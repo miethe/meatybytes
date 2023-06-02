@@ -5,8 +5,8 @@ Learn everything about Solution Architectures for OpenShift/Kubernetes
 '''
 Date = 2023-04-10
 author = "Nick Miethe"
-categories = ["Technical"]
-topics = ["OpenShift"]
+categories = ["Technical", "Introduction"]
+topics = ["OpenShift", "Kubernetes", "Solution Architecture"]
 tags = ["Architecture", "Patterns", "OpenShift", "Kubernetes"]
 series = ["Solutioning OCP Architectures"]
 series_order = 1
@@ -19,6 +19,10 @@ Solution architecture is a critical aspect of designing and building complex sof
 In this *blog series*, we'll explore the fundamentals of solution architecture and how they apply to OpenShift and Kubernetes-based systems.
 
 In the *next* post, we'll discuss the key principles of solution architecture, including scalability, availability, security, and performance, and how they can be achieved using OpenShift and Kubernetes.
+
+{{< alert "logo" >}}
+Check out our post on [NFRs]({{< ref "nfrs" >}}) for a deep dive into these topics!
+{{< /alert >}}
 
 In the **final** part of the series, we'll look at some real-world examples of solution architecture in action, and provide practical tips and best practices for designing and implementing effective solutions using these technologies.
 

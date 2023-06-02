@@ -1,9 +1,9 @@
 +++
 title = "Creating a Golden Path in Backstage: Deploying Python Applications to OpenShift"
 date = 2023-05-18
-tags = ["Golden Paths", "Platform Engineering", "DevOps", "OpenShift", "Kubernetes", "DevOps", "IDP", "Backstage", "Python"]
-categories = ["Technical"]
-topics = ["OpenShift"]
+tags = ["Golden Paths", "Platform Engineering", "DevOps", "OpenShift", "Kubernetes", "DevOps", "IDP", "Backstage", "Python", "Janus", "Developer Hub"]
+categories = ["Technical", "Guide"]
+topics = ["OpenShift", "IDP"]
 series = ["Golden Paths"]
 series_order = 2
 description = "A step-by-step guide to creating a Golden Path in Backstage for deploying Python applications to an OpenShift cluster."
@@ -83,8 +83,16 @@ By integrating Backstage with OpenShift, we can leverage the power of both platf
 
 Remember, this is just a basic example, and you can customize this process to suit your specific requirements. Stay tuned for more posts on using Backstage and OpenShift to simplify your deployment processes, especially with Red Hat's new project [Janus](https://janus-idp.io/)!
 
+{{< alert "redhat" >}}
+Red Hat just released their new [Developer Hub](https://developers.redhat.com/products/developer-hub/overview) at RH Summit '23, a supported offering, based on Janus, providing plugins for Backstage. See the developer's guide linked in the References below for more information on the initial 6 plugins!
+{{< /alert >}}
+
 ## References
 
 1. [Backstage Software Templates](https://backstage.io/docs/features/software-templates/)
 2. [Backstage Installation Guide](https://backstage.io/docs/getting-started/)
 3. [raffaelespazzoli/backstage-demo {{< icon "github" >}}](https://github.com/raffaelespazzoli/backstage-demo)
+4. [Janus IDP Backstage Showcase](https://showcase.janus-idp.io/)
+5. [Deploying Backstage onto OpenShift Using the Backstage Helm Chart | Janus](https://janus-idp.io/blog/2023/02/17/deploying-backstage-onto-openshift-using-helm/)
+6. [A developer’s guide to Red Hat Developer Hub and Janus | Red Hat Developer](https://developers.redhat.com/articles/2023/05/23/developers-guide-red-hat-developer-hub-and-janus)
+7. [Red Hat Unveils Red Hat Developer Hub to Help Fuel Developer Productivity](https://www.redhat.com/en/about/press-releases/red-hat-unveils-red-hat-developer-hub-help-fuel-developer-productivity)

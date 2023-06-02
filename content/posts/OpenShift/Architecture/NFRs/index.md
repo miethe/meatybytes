@@ -5,9 +5,9 @@ author = "Nick Miethe"
 description = '''
 Non-Functional Requirements for OpenShift
 '''
-categories = ["Technical"]
-topics = ["OpenShift"]
-tags = ["OpenShift", "NFRs", "SRE", "DevOps"]
+categories = ["Technical", "Introduction"]
+topics = ["OpenShift", "Kubernetes", "Solution Architecture"]
+tags = ["OpenShift", "NFRs", "SRE", "DevOps", "Architecture", "Platform Engineering"]
 +++
 
 ## Introduction

@@ -2,8 +2,8 @@
 title = "Golden Paths in Platform Engineering: A Pathway to Success"
 date = 2023-05-17
 tags = ["Golden Paths", "Platform Engineering", "DevOps", "OpenShift", "Kubernetes", "DevOps", "IDP", "Backstage"]
-categories = ["Technical", "Guide"]
-topics = ["OpenShift"]
+categories = ["Technical", "Guide", "Introduction"]
+topics = ["OpenShift", "Kubernetes"]
 series = ["Golden Paths"]
 series_order = 1
 description = "Exploring the concept of Golden Paths in Platform Engineering, their importance, and their relation to Internal Developer Platforms (IDPs), with a specific focus on OpenShift/Kubernetes."

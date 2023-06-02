@@ -7,6 +7,7 @@ categories:
   - Technical
 topics:
   - OpenShift
+  - Solution Architecture
 series:
   - TCO
 series_order: 1
