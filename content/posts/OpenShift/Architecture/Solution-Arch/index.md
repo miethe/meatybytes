@@ -8,7 +8,7 @@ author = "Nick Miethe"
 categories = ["Technical", "Introduction"]
 topics = ["OpenShift", "Kubernetes", "Solution Architecture"]
 tags = ["Architecture", "Patterns", "OpenShift", "Kubernetes"]
-series = ["Solutioning OCP Architectures"]
+series = ["OCP Solution Architectures"]
 series_order = 1
 +++
 

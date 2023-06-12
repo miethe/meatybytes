@@ -1,11 +1,12 @@
 ---
 title: "Introducing Red Hat's Trusted Software Supply Chain"
 author: "Nick Miethe"
-date: "2023-05-25"
-tags: ["Red Hat", "Software Supply Chain", "Chainguard", "Security", "ACS"]
+date: "2023-06-01"
+tags: ["Red Hat", "Software Supply Chain", "Chainguard", "Security", "ACS", "SLSA", "Tekton Chains"]
 categories: ["Technical", "Introduction", "Comparison"]
-topics: ["OpenShift"]
+topics: ["OpenShift", "Security"]
 series: ["Securing Your Supply Chain"]
+series_order: 1
 ---
 
 ## Introduction

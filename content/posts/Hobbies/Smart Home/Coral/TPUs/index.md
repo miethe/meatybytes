@@ -48,7 +48,7 @@ It's also worth noting that TPUs aren't the only tech you can use for machine le
 
 ## Google Coral Product Line: A Breakdown
 
-Google Coral offers a range of products, each best suited for different applications. They are best broken up into 3 specific groupings: Chips/Cards (to build your own from the ground up), SOMs (to add to an existing system), and Dev Boards (to setup an AIO solution, out-of-the-box). All 3 have their own distinct place in the wide-range of Coral customers. See below for an explanation of each, to help you choose the right solution.
+Google Coral offers a range of products, each best suited for different applications. They are best broken up into 3 specific groupings: Accelerator Models (to build your own from the ground up), SOMs (to add to an existing system), and Dev Boards (to setup an AIO solution, out-of-the-box). All 3 have their own distinct place in the wide-range of Coral customers. See below for an explanation of each, to help you choose the right solution.
 
 ### DIY
 
