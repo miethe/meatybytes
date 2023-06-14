@@ -13,7 +13,7 @@ paginate = 10
 summaryLength = 0
 
 buildDrafts = false
-buildFuture = false
+buildFuture = true
 
 googleAnalytics = "G-0VB1122M0S"
 
@@ -51,10 +51,6 @@ disqusShortname = "meatybytes"
     [[related.indices]]
         name = "series"
         weight = 50
-
-    [[related.indices]]
-        name = "authors"
-        weight = 20
 
     [[related.indices]]
         name = "date"

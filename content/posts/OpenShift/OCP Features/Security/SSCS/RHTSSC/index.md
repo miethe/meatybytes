@@ -18,7 +18,7 @@ Security has become paramount in today's world of software development. With the
 **Red Hat's Trusted Software Supply Chain** is a cloud service designed to accelerate the integration of software supply chain security into cloud-native applications. It provides a comprehensive suite of tools to ensure security from coding to deployment, all within a managed service that can sit alongside your existing platform.
 
 {{< alert "redhat" >}}
-**Hosting Options** I asked Tushar Katarki, the Product Director for OpenShift, during RH Summit about self-managed instances of Trusted Software Supply Chain, and he mentioned that it will be released soon!
+**Hosting Options** I asked *Tushar Katarki*, the Product Director for OpenShift, during RH Summit about self-managed instances of Trusted Software Supply Chain, and he mentioned that it will be released soon!
 {{< /alert >}}
 
 ### What It Offers
@@ -73,4 +73,4 @@ Given the importance of software supply chain security in today's world, both Re
 * [Red Hat Introduces Red Hat Trusted Software Supply Chain](https://www.redhat.com/en/about/press-releases/red-hat-introduces-red-hat-trusted-software-supply-chain) - RH's Press Release
 * [Improving supply chain resiliency with Red Hat Trusted Software Supply Chain](https://www.redhat.com/en/blog/red-hat-trusted-software-supply-chain)
 * [Red Hat Trusted Software Supply Chain Overview | Red Hat Developer](https://developers.redhat.com/products/trusted-software-supply-chain/overview)
-* [Chainguard](www.chainguard.dev)
+* [Chainguard](https://edu.chainguard.dev/)

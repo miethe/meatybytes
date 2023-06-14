@@ -20,7 +20,7 @@ There have been numerous developments around architecture standards as the indus
 
 In this context, app *tiers* are the separation of components an application. For example, the move from Single- to Two-Tier Architectures was the separation of data from the UI and Logic, with the introduction of DBs. This introduced the role of DBAs. Three-Tier was again the separation of the UI and Logic, eventually evolving further into MVC, with a *Controller* between the Logic (Model) and UI (View). This introduced still popular app/dev frameworks like .Net and Java Beans.
 
-![](/images/app-arch-timeline.png)
+![](app-arch-timeline.png)
 
 Below is a list of some of the common architectures currently used in modern systems:
 

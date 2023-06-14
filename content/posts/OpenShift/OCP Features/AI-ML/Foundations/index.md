@@ -50,7 +50,7 @@ Read more in my post on [Scaling AI Workloads on OCP]({{< ref "scaling workloads
 
 OpenAI's **GPT-4**, a state-of-the-art *LLM* recently made famous by [ChatGPT](https://chat.openai.com), exemplifies many of these concepts. It's trained on a large corpus of text data and can generate impressively human-like text. It's a perfect example of a model that needs robust model serving and scaling strategies due to its large size and resource requirements.
 
-[**Kubeflow**]((https://www.kubeflow.org/docs/)), a machine learning toolkit for Kubernetes, is a powerful tool for managing the lifecycle and workloads of such models. It provides functionalities for training ML models, serving them via servers like Seldon Core, and scaling them to meet demand.
+[**Kubeflow**](https://www.kubeflow.org/docs/), a machine learning toolkit for Kubernetes, is a powerful tool for managing the lifecycle and workloads of such models. It provides functionalities for training ML models, serving them via servers like Seldon Core, and scaling them to meet demand.
 
 By integrating Kubeflow with OpenShift, you can leverage the powerful capabilities of both platforms to manage your ML workloads effectively. OpenShift's robust container orchestration capabilities, combined with Kubeflow's ML-specific functionality, offer a comprehensive solution for *MLOps*.
 

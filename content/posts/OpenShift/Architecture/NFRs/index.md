@@ -18,7 +18,7 @@ This is especially true as a consultant. Coming into customer environments with 
 
 ## What are Non-Functional Requirements (NFRs)?
 
-![](/images/NFR-map.png)
+![](NFR-map.png "[Original Size](NFR-map.png): NFR Map")
 
 ----
 
@@ -38,7 +38,7 @@ In this post, we will explore many of these NFRs in the context of OpenShift and
 
 There are many potential NFRs for a platform. The following are a subset of some of the core NFRs encountered in the context of OpenShift.
 
-![](/images/nfr-arch.png)
+![](nfr-arch.png "[Original Size](nfr-arch.png): NFR Tree")
 
 ### Scalability
 

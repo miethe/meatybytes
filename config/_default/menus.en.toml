@@ -38,7 +38,7 @@
 #  weight = 10
 
 [[main]]
-  name = "OpenShift"
+  name = "Tech/OpenShift"
   pageRef = "posts/openshift"
   weight = 20
 

@@ -46,7 +46,7 @@ Each Architecture Pattern generally consists of **Implementation Patterns** base
 
 ### Reference vs Solution
 
-![](/images/ref-arch-cycle.webp)
+![](ref-arch-cycle.webp)
 
 As you can see in the above image, Solution Architectures are guided by decisions made in Reference Architectures. But it does not show the rest of the cycle, where experiences from the solution redefine the underlying references.
 
@@ -89,7 +89,7 @@ Architecture Patterns are a large grouping of patterns focused around solutionin
 * Operational
 * Management
 
-![](/images/arch-patterns.png)
+![](arch-patterns.png)
 
 ### Implementation Patterns
 

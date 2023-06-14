@@ -3,6 +3,8 @@ title: "Securing Your Software Supply Chain: Tracing it Back to the Start"
 author: "Nick Miethe"
 date: 2023-05-26
 tags: ["Software Supply Chain", "SLSA", "SBOM", "Image Signing", "Provenance", "SPIFFE/SPIRE", "OpenShift", "Red Hat"]
+series: ["Securing Your Supply Chain"]
+series_order: 2
 draft: true
 ---
 
