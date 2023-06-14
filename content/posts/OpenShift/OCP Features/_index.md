@@ -1,6 +1,6 @@
 +++
-title = "OCP Features"
+title = "OCP Engineering"
 description = '''
-Posts more focused on Engineering topics
+Posts focused on Engineering topics related to OpenShift, whether directly or tangentially!
 '''
 +++
