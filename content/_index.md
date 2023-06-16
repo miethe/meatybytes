@@ -5,7 +5,8 @@ Learn everything about OpenShift
 '''
 +++
 
+I'm [Nick Miethe](/about), and welcome to MeatyBytes.io, a constant stream of data from my brain to yours!
 
-<!--center>
-<a target="_blank" href="https://www.buymeacoffee.com/miethe"><img class="nozoom" src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=miethe&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
-</center-->
+On this site lives my blog, where you'll find a wealth of information on a variety of topics, depending on where my head is at on any given day.
+
+Whether you're interested in deep dives on [OpenShift](/posts/openshift/ocp-features/), discussions on [Software/Solution Architecture](/posts/openshift/architecture/), or even *Distracted* thoughts on a [variety of hobbies](/posts), there's probably something for you here!
