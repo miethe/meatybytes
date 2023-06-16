@@ -2,8 +2,8 @@
 title = "Domain-Driven Design: A Comprehensive Review"
 Date = 2023-06-04
 author = "Nick Miethe"
-categories = ["Books", "Review"]
-topics = ["Education", "Technical"]
+categories = ["Books", "Review", "Technical"]
+topics = ["Education"]
 tags = ["DevOps", "Book Review", "Architecture", "Domain-Driven Design"]
 series = ["Book Reviews - Tech"]
 series_order = 2

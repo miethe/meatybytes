@@ -2,8 +2,8 @@
 title = "Site Reliability Engineering: A Comprehensive Review"
 Date = 2023-06-03
 author = "Nick Miethe"
-categories = ["Books", "Review"]
-topics = ["Education", "Technical"]
+categories = ["Books", "Review", "Technical"]
+topics = ["Education"]
 tags = ["SRE", "Book Review", "Google", "Site Reliability Engineering"]
 series = ["Book Reviews - Tech"]
 series_order = 1

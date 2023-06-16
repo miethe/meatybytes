@@ -1,10 +1,10 @@
 ---
-title: "Exploring the Raspberry Pi Pico: A Tiny Giant in a Microcontroller World"
+title: "Raspberry Pi Pico: A Tiny Giant in a Microcontroller World"
 date: 2023-06-07
 author: "Nick Miethe"
 tags: ["Raspberry Pi", "Arduino", "Microcontroller", "IoT", "Homelab", "Smart Home"]
-categories: ["Smart Home", "Microcontrollers"]
-topics: ["Hobbies", "Technical"]
+categories: ["Smart Home", "Microcontrollers", "Technical"]
+topics: ["Hobbies"]
 description: "An explanation of the Pi Pico, comparing it with other Pi offerings, plus more similar Arduino boards."
 ---
 

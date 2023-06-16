@@ -3,8 +3,8 @@ title: "Supercharge Your Smart Home with Google Coral TPUs"
 author: "Nick Miethe"
 date: 2023-06-08
 tags: ["Google Coral", "Smart Home", "OpenShift", "TPU", "AI/ML"]
-categories: ["Smart Home", "AI/ML"]
-topics: ["Hobbies", "Technical"]
+categories: ["Smart Home", "AI/ML", "Technical"]
+topics: ["Hobbies"]
 description: "An explanation of TPUs and how they work. Then an inventory of TPU models."
 ---
 
