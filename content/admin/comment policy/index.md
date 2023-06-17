@@ -42,6 +42,6 @@ Please remember that all comments represent the thoughts and opinions of their r
 
 We reserve the right to moderate, delete, or hide comments that we deem to violate these rules, and to modify this policy as necessary.
 
-If you have any questions or concerns about this comment policy, please [contact us](/contact/).
+If you have any questions or concerns about this comment policy, please leave a comment or find me on social media for a PM.
 
 Let's keep the **MeatyBytes.io** comments section a valuable resource for everyone, and the drama or spam on LinkedIn!
