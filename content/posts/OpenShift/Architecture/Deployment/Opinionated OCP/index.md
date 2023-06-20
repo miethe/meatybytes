@@ -33,6 +33,20 @@ Welcome to another post on MeatyBytes.io. Today we're diving deep into an opinio
 
 An ideal OpenShift cluster architecture for enterprise needs would leverage a mix of various Operators and integrations. The following are key components of such a deployment:
 
+* CI/CD
+* GitOps
+* Virtualization
+* Serverless
+* Observability
+* Multi-cluster Management
+* Security
+* Connectivity
+  * Ingress
+  * Egress
+  * Microservices
+
+In this post, we will provide a high-level overview of OpenShift capabilities that provide each of these necessary components. Let's get to it!
+
 ### CI/CD: Jenkins Operator, Tekton Pipelines Operator
 
 For Continuous Integration and Continuous Delivery (CI/CD), the **OpenShift Pipelines Operator**, based on Tekton, is an excellent choice. Tekton is a powerful and flexible open-source framework for creating CI/CD systems, allowing developers to build, test, and deploy across multiple cloud providers or on-premises systems by abstracting away the underlying implementation details. This allows you to then integrate any other Pipeline tools you are already using. For example, there are OpenShift Operators for GitLab, Jenkins, and more! Additionally, GitLab and [GitHub](https://operatorhub.io/operator/github-arc-operator) both have Runner Operators for OpenShift, with the latter having been written by my colleagues at BoxBoat!
