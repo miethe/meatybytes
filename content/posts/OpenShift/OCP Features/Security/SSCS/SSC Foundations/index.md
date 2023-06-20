@@ -1,14 +1,13 @@
 ---
 title: "Securing Your Software Supply Chain: Tracing it Back to the Start"
 author: "Nick Miethe"
-date: 2023-05-26
+date: 2023-06-18
 tags: ["Software Supply Chain", "SLSA", "SBOM", "Image Signing", "Provenance", "Attestations", "SPIFFE/SPIRE", "OpenShift", "Security", "Red Hat", "Shift Left", "DevSecOps"]
 description: "Explore the foundations of software supply chain security, including SLSA, SBOMs, SPIFFE/SPIRE, and their application in OpenShift. Learn how to trace the source of your software supply chain and enhance its security."
 categories: ["Technical", "Introduction"]
 topics: ["OpenShift", "Platform Engineering", "DevSecOps"]
 series: ["Securing Your Supply Chain"]
 series_order: 2
-draft: false
 ---
 
 [//]: # "Thumbnail Image Description: A chain crafted from binary code signifying the digital software supply chain, with a lock symbolizing security in the center."
