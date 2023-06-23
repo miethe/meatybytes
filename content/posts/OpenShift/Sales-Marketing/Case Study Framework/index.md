@@ -11,9 +11,9 @@ series_order: 1
 
 ## Introduction
 
-Welcome back to [MeatyBytes.io](/), fellow tech enthusiasts and knowledge seekers! I'm Nick Miethe, your guide on this journey. My days are spent wrangling with OpenShift, and my nights are devoted to various hobbies ranging from tinkering with my homelab to woodworking. I've crafted this space to share my knowledge and insights, and to bring you a consistent flow of meaty bytes in the world of technology.
+Welcome back to [MeatyBytes.io](/), fellow tech enthusiasts and knowledge seekers! I'm Nick Miethe, your guide on this journey. My days are spent wrangling with [OpenShift](/topics/openshift/), and my nights are devoted to various hobbies ranging from tinkering with my [homelab](/tags/homelab/) to woodworking. I've crafted this space to share my knowledge and insights, and to bring you a consistent flow of meaty bytes in the world of technology.
 
-Today, we're diving headfirst into the deep end of Platform Engineering, specifically the crucial role that case studies play in advancing this field. But why should you care about case studies? Aren't they just academic exercises? In truth, they are so much more.
+Today, we're diving headfirst into the deep end of [Platform Engineering](/tags/platform-engineering/), specifically the crucial role that case studies play in advancing this field. But why should you care about case studies? Aren't they just academic exercises? In truth, they are so much more.
 
 ### Synopsis
 
