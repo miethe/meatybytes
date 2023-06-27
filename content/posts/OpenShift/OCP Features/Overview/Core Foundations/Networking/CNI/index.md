@@ -24,7 +24,7 @@ In this post, we will dive deep into the realm of OpenShift networking, explorin
 
 ### Open Virtual Network (OVN)
 
-To overcome the limitations of SDN, OpenShift moved to **OVN** with [v4.12](https://www.redhat.com/en/whats-new-red-hat-openshift), marking a significant evolution in OpenShift networking. Rather than using the **VXLAN** protocol like SDN, OVN utilizes **Geneve** - Generic Network Virtualizaiton Encapsulation. It also doesn't require kube-proxy, unlike SDN. OVN offers improves performance and more features, while improving security and supporting more complex network topologies.
+To overcome the limitations of SDN, OpenShift moved to **OVN** with [v4.12](https://www.redhat.com/en/whats-new-red-hat-openshift), marking a significant evolution in OpenShift networking. Rather than using the **VXLAN** protocol like SDN, OVN utilizes **Geneve** - Generic Network Virtualization Encapsulation. It also doesn't require kube-proxy, unlike SDN. OVN offers improves performance and more features, while improving security and supporting more complex network topologies.
 
 OVN provides native support for network policies, thereby improving security, and supporting more advances network functionality like Network Address Translation (NAT), load balancing, and distributed gateway. These features make OVN a more scalable and flexible solution, aligning better with modern application and microservices architectures.
 
