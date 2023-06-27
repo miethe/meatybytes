@@ -2,9 +2,10 @@
 title: "A Deep Dive into OpenShift CNI: SDN, OVN, and More"
 date: 2023-06-02
 author: Nick Miethe
+description: "Overview of container networking (CNIs) in OpenShift and Kubernetes, reviewing SDN, OVN, Multus, and more."
 tags: ["OpenShift", "CNI", "SDN", "OVN", "Multus", "Containers", "Networking", "Kubernetes"]
 categories: ["Technical", "Introduction"]
-topics: ["OpenShift", "Kubernetes"]
+topics: ["OpenShift", "Kubernetes", "Networking"]
 ---
 
 ## Introduction
@@ -17,7 +18,7 @@ In this post, we will dive deep into the realm of OpenShift networking, explorin
 
 ### Software Defined Network (SDN)
 
-![](ocp-sdn-arch.png)
+![General Arch of SDN CNI in K8s per Pod](ocp-sdn-arch.png)
 
 **SDN** was the first native CNI used in OpenShift. SDN made it possible for pods to communicate with each other, even across different nodes, by creating a virtual network on top of the existing physical network. It provided a decent level of functionality, including support for network isolation between projects. However, SDN had limitations in terms of performance and scalability.
 
@@ -27,7 +28,7 @@ To overcome the limitations of SDN, OpenShift moved to **OVN** with [v4.12](http
 
 OVN provides native support for network policies, thereby improving security, and supporting more advances network functionality like Network Address Translation (NAT), load balancing, and distributed gateway. These features make OVN a more scalable and flexible solution, aligning better with modern application and microservices architectures.
 
-![](ovn-k8s-arch.png)
+![OVN Architecture in OCP/K8s with OVS](ovn-k8s-arch.png)
 
 ### SDN vs OVN
 
@@ -56,21 +57,21 @@ OVN provides native support for network policies, thereby improving security, an
 
 ### Multus
 
-Multus plays a crucial role in the OpenShift networking ecosystem. It's a meta-plugin that allows you to use multiple network interfaces within a single pod. This is particularly useful in applications that require network separation for data, control, and management traffic. Multus adds a lot of flexibility to pod networking and can use any CNI plugin to provide these additional network interfaces.
+**Multus** plays a crucial role in the OpenShift networking ecosystem. It's a meta-plugin that allows you to use multiple network interfaces within a single pod. This is particularly useful in applications that require network separation for data, control, and management traffic. Multus adds a lot of flexibility to pod networking and can use any CNI plugin to provide these additional network interfaces.
 
 ### Cluster Network Operator
 
-The Cluster Network Operator (CNO) is responsible for configuring the cluster network. It manages the deployment of Multus, the default network (which can be SDN, OVN-Kubernetes, or even a third-party solution), and additional networks. The CNO ensures that the entire cluster network is up and running, making it a critical component of OpenShift networking.
+The **Cluster Network Operator** (CNO) is responsible for configuring the cluster network. It manages the deployment of Multus, the default network (which can be SDN, OVN-Kubernetes, or even a third-party solution), and additional networks. The CNO ensures that the entire cluster network is up and running, making it a critical component of OpenShift networking.
 
 The below diagram provides an overview of how CNO and Multus work together to managed OpenShift's network configurations. However, container networking is a fairly complex topic, and introducing multiple networks and their management only increases that complexity. So, it is worth diving deeper if you would like to have a better understanding of how it works!
 
-![](ocp-multus-arch-cno.png)
+![Diagram of CNO and Multus managing OCP/K8s with CRs](ocp-multus-arch-cno.png)
 
 ## Supported CNIs in OCP
 
 OpenShift Container Platform (OCP) supports a range of CNIs, each with its unique strengths. Here is a list of supported CNIs:
 
-![](ocp-cni-updated.png)
+![SDN, OVN, Calico, ACI, NCP, Cilium, Antrea, Contrail, Neutron](ocp-cni-updated.png)
 
 OpenShift also supports several *special* CNI plugins, each providing unique capabilities. Some of the notable ones include:
 
@@ -84,9 +85,9 @@ Red Hat also provide a [full list](https://access.redhat.com/articles/4763741) o
 
 ## How Does CNI Work in Kubernetes?
 
-The CNI in Kubernetes, and thus OpenShift, works as a bridge between the Kubernetes orchestration layer and the underlying host network by coordinating the allocation of network interfaces to containers and managing network resources. A CNI plugin is responsible for inserting a network interface into the container network namespace (like one end of a virtual ethernet pair) and making necessary changes on the host (like attaching the other end of the veth into a bridge).
+The **CNI** in Kubernetes, and thus OpenShift, works as a bridge between the Kubernetes orchestration layer and the underlying host network by coordinating the allocation of network interfaces to containers and managing network resources. A CNI plugin is responsible for inserting a network interface into the container network namespace (like one end of a virtual ethernet pair) and making necessary changes on the host (like attaching the other end of the veth into a bridge).
 
-The kubelet, the primary node agent in Kubernetes, is enlisted by the CNI when it expects to perform network operations on a container. The kubelet calls the CNI plugin with the desired command (like ADD, DEL, CHECK) and provides related network configuration and container-specific data to the plugin. The CNI plugin then performs the required operations and reports the result.
+The **kubelet**, the primary node agent in Kubernetes, is enlisted by the CNI when it expects to perform network operations on a container. The kubelet calls the CNI plugin with the desired command, such as `ADD, DEL, CHECK`, and provides related network configuration and container-specific data to the plugin. The CNI plugin then performs the required operations and reports the result.
 
 ### Pod Networking
 
@@ -96,7 +97,7 @@ The CNI ensures that the pod has the necessary network connectivity to communica
 
 ## Why Does OpenShift Support Multiple CNIs?
 
-Networking is a complex topic with a variety of user needs. Hence, OpenShift supports multiple CNI plugins that do things differently to satisfy various use cases. Whether you need to provision a network device directly to a pod for high-performance computing, or you want to make use of OVN-Kubernetes for advanced network functionality and security, OpenShift offers a CNI plugin to fit the bill.
+Networking is a complex topic with a variety of user needs. Hence, OpenShift supports multiple CNI plugins that do things differently to satisfy various use cases. Whether you need to provision a network device directly to a pod for high-performance computing, or you want to make use of **OVN-Kubernetes** for advanced network functionality and security, OpenShift offers a CNI plugin to fit the bill.
 
 ## Conclusion
 
