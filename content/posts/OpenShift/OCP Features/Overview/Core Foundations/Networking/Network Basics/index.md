@@ -9,15 +9,25 @@ categories: ["Technical", "Introduction"]
 
 ## Introduction
 
-Networking is the lifeblood of modern cloud applications. In the world of Kubernetes and OpenShift, it plays a critical role in connecting applications and services. Whether you're a seasoned platform engineer or a DevOps enthusiast looking to understand the nuts and bolts of OpenShift and Kubernetes networking, this blog post is your deep-dive into the foundational concepts. We'll cover everything from container networking basics to different networking design patterns in OpenShift for various scenarios. Let's get started!
+Welcome back to [MeatyBytes.io](/), where the technical juices are always flowing! I'm Nick Miethe, your resident OpenShift enthusiast and [homelab](/topics/homelab) hobbyist. When I'm not nerding out over the intricacies of [Platform Engineering](/topics/platform-engineering), I can be found setting up servers, 3D printing, or capturing the world through a camera lens. But today, we're diving back into the world of OpenShift, more specifically, the intricate labyrinth that is container networking.
 
-[//]: # "!IMAGE-HERE!: Infographic showing the high-level view of networking in OpenShift and Kubernetes"
+### Synopsis
+
+Networking is the lifeblood of modern cloud applications, yet it is often either overlooked, or seen as a complex and even daunting facet of OpenShift and Kubernetes. Its significance, however, is indisputable. It underpins every communication, every service interaction, and every data transfer within your cluster. That's why understanding it thoroughly can give you unprecedented control and efficiency in your cluster management.
+
+In this post, we'll dissect the fundamentals of container networking, both in **OpenShift** and **Kubernetes**. Starting with an *overview of primary concepts* for container and Kubernetes networking, we'll then build into *OpenShift-specific networking* topics. Finally, we'll finish off with *multiple OCP networking design patterns* to understand how they fit into the bigger picture.
+
+This comprehensive exploration is aimed to arm you with the knowledge you need to optimize your networking architecture, troubleshoot with greater effectiveness, and leverage the full power of your OpenShift and Kubernetes deployments. Join me as we lift the lid off this critical component of our containerized world and explore what lies beneath.
+
+We've got a journey ahead of us, so let's dive in!
 
 ## Container Networking: The Basics
 
 Containers are lightweight and isolated runtime environments. To interact with other containers and the external world, they need to network. Each container gets its own network namespace, meaning it has its own IP address, subnet, and routing table.
 
-The **Container Network Interface** (CNI) is a key player here. It's a specification and a set of libraries for configuring network interfaces in Linux containers. The CNI allows containers to get an IP address and be reachable, without knowing the details of the networking environment.
+The *Container Network Interface* (**CNI**) is a key player here. It's a specification and a set of libraries for configuring network interfaces in Linux containers. The CNI allows containers to get an IP address and be reachable, without knowing the details of the networking environment.
+
+At an even lower level, *Open vSwitch*, or **OVS**, provides a programmable virtual switch at the OS layer, allowing tools such as the CNI to provide networking capabilities for pods in Kubernetes. You can read more on the implementation of CNIs in our prior post [deep diving CNIs]({{< ref "cni" >}}), and stay tuned for a deep dive on the physical layer of container networking!
 
 ![Flow of traffic through OVS](ovs-arch-network-multi-node.png)
 
@@ -32,6 +42,10 @@ A **Pod** is the smallest deployable unit of computing in Kubernetes, which can 
 ### Services
 
 **Services** are an abstraction that defines a logical set of Pods and enables external network access to them via policies. It provides a single IP address and DNS name by which Pods can access each other.
+
+### NetworkPolicy
+
+Kubernetes uses the `NetworkPolicy` object to provide detailed network traffic control. It determines which Pods can communicate with each other and other network endpoints.
 
 ![Ingress flow of traffic to Pods](ingress-diagram-k8s.png)
 
@@ -49,7 +63,7 @@ Kubernetes relies on CNI plugins for networking. These plugins allow different n
 
 ## OpenShift Networking: A Closer Look
 
-**OpenShift**, a distribution of Kubernetes by **Red Hat**{{< icon "redhat" >}}, brings along its additional networking features, focusing on security and ease of use.
+**OpenShift**, a distribution of Kubernetes by **Red Hat**{{< icon "redhat" >}}, brings along its additional networking features, focusing on security and ease of use. For more information, see the table at the end of the post on many more [OCP Networking Components](#openshift-networking-components).
 
 ### OCP Ingress and Egress
 
@@ -59,19 +73,31 @@ Egress is controlled using `Egress Network Policies` and **Egress Routers**.
 
 ### OCP Routes
 
-OpenShift introduces the concept of **Routes**, an abstraction over Kubernetes Ingress. An OpenShift **Route** is essentially a method to expose a service by assigning it an externally reachable hostname, such as [MeatyBytes.io](/). Each route is made up of a route name, service selector, and optionally, a security configuration. The route and the endpoints determined by its service can be utilized by a router to establish named connectivity, thereby allowing external clients to reach your applications.
+OpenShift introduces the concept of **Routes**, an abstraction over Kubernetes Ingress. An OpenShift **Route** is essentially a method to expose a service by assigning it an externally reachable hostname, such as [MeatyBytes.io](/).
+
+Each route is made up of a route name, service selector, host, and port. Routes also provide additional optional features, such as a security configuration for SSL. The route and the endpoints determined by its service can be utilized by a router to establish named connectivity, thereby allowing external clients to reach your applications. See below for a simple example Route configuration:
+
+```yaml
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: hello-meatybytes
+spec:
+  host: hello-meatybytes-hello.meatybytes.io
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: hello-meatybytes
+```
 
 {{< alert "redhat" >}}
-While Routes are now considered an abstraction over Ingress, they in fact pre-date the upstream Ingress!
+While Routes are now considered an abstraction over Ingress, they in fact pre-date the upstream Ingress! Read more in our post on the history between, and deep dive into, Routes and Ingress!
 {{< /alert >}}
 
 ### OCP Multitenancy
 
 OpenShift supports **multitenancy**, allowing many users or teams to safely coexist on a single cluster without stepping on each other's toes. This involves network isolation using a *software-defined networking* (**SDN**) solution, which ensures network traffic is segmented for different projects.
-
-### NetworkPolicy
-
-OpenShift uses the `NetworkPolicy` object to provide detailed network traffic control. It determines which Pods can communicate with each other and other network endpoints.
 
 ## Networking Design Patterns in OpenShift
 
@@ -139,3 +165,21 @@ I hope this overview gives you a good starting point to explore the possibilitie
 1. [Understanding networking | OpenShift Container Platform 4.13](https://docs.openshift.com/container-platform/4.13/networking/understanding-networking.html)
 2. [Networking Insights - OCP](https://www.youtube.com/watch?v=n1K0QsfnDPs)
 3. [OpenShift SDN](https://network-insight.net/2022/07/18/openshift-sdn/)
+
+## OpenShift Networking Components
+
+| Component | Type | OpenShift-native | Description |
+|---|---|---|---|---|
+| Service types | Foundational | No | Node ports or load balancers, and API resources such as `Ingress` and `Route` |
+| OpenShift Container Platform DNS | Foundational | Yes | Built-in DNS so that the services can be reached by the service DNS as well as the service IP/port |
+| OpenShift Container Platform Ingress Operator | Operator | Yes | Implements the `IngressController` API and is responsible for enabling external access to OpenShift Container Platform cluster services |
+| Ingress and Route | Foundational | No | Implements the Ingress Controller with a shared router service that runs as a pod inside the cluster. Routes provide advanced features that might not be supported by standard Kubernetes Ingress Controllers |
+| Cluster Network Operator | Operator | Yes | Deploys and manages the cluster network components in an OpenShift Container Platform cluster |
+| DNS Operator | Operator | Yes | Deploys and manages CoreDNS to provide a name resolution service to pods. This enables DNS-based Kubernetes Service discovery in OpenShift Container Platform |
+| AWS Load Balancer Operator | Operator | Yes | Deploys and manages an instance of the `aws-load-balancer-controller` |
+| External DNS Operator | Operator | Yes | Deploys and manages ExternalDNS to provide the name resolution for services and routes from the external DNS provider to OpenShift Container Platform |
+| Kubernetes NMState Operator | Operator | No | Provides a Kubernetes API for performing state-driven network configuration across the OpenShift Container Platform cluster’s nodes with NMState |
+| kube-proxy | Foundational | No | A proxy service which runs on each node and helps in making services available to the external host |
+| load balancers | Foundational | No | Used for communicating from outside the cluster with services running in the cluster |
+| MetalLB Operator | Operator | No | When a service of type `LoadBalancer` is added to the cluster, MetalLB can add an external IP address for the service |
+| PTP Operator | Operator | Yes | Creates and manages the `linuxptp` services |
