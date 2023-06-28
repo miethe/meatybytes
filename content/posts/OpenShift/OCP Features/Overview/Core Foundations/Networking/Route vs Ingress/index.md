@@ -1,6 +1,6 @@
 ---
 title: "OpenShift Routes vs. Ingress: A Comprehensive Showdown"
-date: 2023-06-23
+date: 2023-06-22
 description: "In this post, we delve into the heart of OpenShift networking, comparing two major traffic flow methodologies: OpenShift Routes and Ingress. We'll discuss their histories, nuances, and the best use cases for each."
 tags: ["OpenShift", "Routes", "Ingress", "Networking"]
 topics: ["OpenShift", "Kubernetes", "Networking"]
