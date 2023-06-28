@@ -5,6 +5,8 @@ description: "In-depth exploration of the basics of container networking in Open
 tags: ["OpenShift", "Kubernetes", "Containers", "Networking", "CNI", "Ingress", "Egress", "Routes", "Services", "Multitenancy", "Design Patterns", "Architecture", "Platform Engineering", "DevOps"]
 topics: ["OpenShift", "Kubernetes", "Networking"]
 categories: ["Technical", "Introduction"]
+series: ["OpenShift Foundations: Networking"]
+series_order: 2
 ---
 
 ## Introduction
@@ -92,7 +94,7 @@ spec:
 ```
 
 {{< alert "redhat" >}}
-While Routes are now considered an abstraction over Ingress, they in fact pre-date the upstream Ingress! Read more in our post on the history between, and deep dive into, Routes and Ingress!
+While Routes are now considered an abstraction over Ingress, they in fact pre-date the upstream Ingress! Read more in our post on the history between, and deep dive into, [Routes and Ingress]({{< ref "route vs ingress" >}})!
 {{< /alert >}}
 
 ### OCP Multitenancy
