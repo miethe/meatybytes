@@ -3,7 +3,7 @@ title: "Leveraging Tekton for AI Workloads on OpenShift"
 date: 2023-05-17
 author: Nick Miethe
 categories: ["Technical", "Guide"]
-topics: ["OpenShift"]
+topics: ["Data Science", "OpenShift"]
 tags: ["OpenShift", "AI/ML", "Tekton", "CI/CD", "Pipeline", "Model Training"]
 series: ["AI/ML OCP Tooling"]
 series_order: 5

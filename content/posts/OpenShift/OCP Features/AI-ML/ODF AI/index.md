@@ -4,7 +4,7 @@ date: 2023-05-15
 tags: ["OpenShift", "AI/ML", "ODF", "Open Data Hub", "Kubeflow", "Storage"]
 author: Nick Miethe
 categories: ["Technical", "Guide"]
-topics: ["OpenShift"]
+topics: ["Data Science", "Storage", "OpenShift"]
 series: ["AI/ML OCP Tooling"]
 series_order: 3
 ---

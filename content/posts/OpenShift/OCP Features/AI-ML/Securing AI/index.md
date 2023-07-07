@@ -4,7 +4,7 @@ date: 2023-05-17
 tags: ["OpenShift", "AI/ML", "Security", "ACS", "RBAC", "Network Policies", "Tekton Chains"]
 author: Nick Miethe
 categories: ["Technical", "Guide"]
-topics: ["OpenShift"]
+topics: ["Data Science", "OpenShift"]
 series: ["AI/ML OCP Tooling"]
 series_order: 6
 ---

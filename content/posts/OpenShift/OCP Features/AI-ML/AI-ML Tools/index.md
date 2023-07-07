@@ -4,7 +4,7 @@ date: 2023-05-11
 author: Nick Miethe
 tags: ["OpenShift", "Open Data Hub", "Kubeflow", "AI/ML", "Operators"]
 categories: ["Technical", "Guide", "Introduction"]
-topics: ["OpenShift"]
+topics: ["Data Science", "OpenShift"]
 series: ["AI/ML OCP Tooling"]
 series_order: 1
 ---

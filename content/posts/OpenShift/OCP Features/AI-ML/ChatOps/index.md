@@ -4,7 +4,7 @@ date: 2023-05-16
 author: "Nick Miethe"
 tags: ["OpenShift", "OpenAI", "ChatOps", "AI/ML", "Automation", "Python"]
 categories: ["Technical", "Guide"]
-topics: ["OpenShift"]
+topics: ["Data Science", "OpenShift"]
 series: ["OpenAI on OpenShift"]
 series_order: 5
 description: "Learn how to integrate OpenAI with OpenShift and manage your cluster using ChatOps with an OpenAI-powered Language Model."

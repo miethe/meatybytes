@@ -4,7 +4,7 @@ date: 2023-05-17
 author: Nick Miethe
 tags: ["OpenShift", "Open Data Hub", "Kubeflow", "AI/ML", "LLM", "HPA", "VPA", "TensorFlow", "Seldon"]
 categories: ["Technical", "Guide"]
-topics: ["OpenShift"]
+topics: ["Data Science", "OpenShift"]
 series: ["AI/ML OCP Tooling"]
 series_order: 2
 ---

@@ -5,7 +5,7 @@ date: 2023-05-10
 author: Nick Miethe
 tags: ["AI/ML", "MLOps", "ChatOps", "LLM", "Model Servers", "Model Scaling", "AI Workload Scaling", "OpenAI", "ChatGPT", "Kubeflow", "OpenShift"]
 categories: ["Technical", "Introduction"]
-topics: ["OpenShift"]
+topics: ["Data Science", "OpenShift"]
 series: ["OpenAI on OpenShift"]
 series_order: 1
 ---

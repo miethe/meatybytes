@@ -5,7 +5,7 @@ date: 2023-05-14
 author: Nick Miethe
 tags: ["OpenAI", "OpenShift", "Open Data Hub", "Kubeflow", "AI/ML", "LLM", "Red Hat", "Demo", "Seldon", "Model Training"]
 categories: ["Technical", "Guide", "Demo"]
-topics: ["OpenShift"]
+topics: ["Data Science", "OpenShift"]
 series: ["OpenAI on OpenShift"]
 series_order: 3
 ---

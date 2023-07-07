@@ -4,7 +4,7 @@ date: 2023-05-18
 author: Nick Miethe
 tags: ["OpenShift", "Open Data Hub", "Kubeflow", "AI/ML", "TFJob", "Model Training", "Model Testing", "ODF"]
 categories: ["Technical", "Introduction"]
-topics: ["OpenShift"]
+topics: ["Data Science", "OpenShift"]
 ---
 
 ## Introduction
