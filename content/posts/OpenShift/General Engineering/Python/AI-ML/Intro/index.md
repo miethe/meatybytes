@@ -179,7 +179,7 @@ Leveraging the power of Kubernetes, **RHODS** ensures that your Python data scie
 **RHODS** integrates with popular AI/ML tools like **TensorFlow**, **PyTorch**, and **Scikit-Learn**, making it easy for Python data scientists to use these tools within the **RHODS** environment.
 
 {{< lead >}}
-Read much more about Data Science on OpenShift from [our past posts](topics/data-science/)!
+Read much more about Data Science on OpenShift from [our past posts](/topics/data-science/)!
 {{< /lead >}}
 
 ## Conclusion
