@@ -5,6 +5,8 @@ description: "Delve into Advanced Cluster Management (ACM) in OpenShift to under
 tags: ["OpenShift", "Advanced Cluster Management", "ACM", "Hybrid Cloud", "Rancher", "Anthos", "IBM", "Red Hat", "DevOps", "Multi-cluster Management",]
 topics: ["OpenShift", "Hybrid Cloud", "Platform Engineering"]
 categories: ["Technical", "Introduction"]
+series: ["ACM Overview"]
+series_order: 1
 ---
 
 ## Introduction
