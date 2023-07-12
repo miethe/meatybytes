@@ -5,7 +5,7 @@ author = "Nick Miethe"
 categories = ["Books"]
 topics = ["Education"]
 tags = ["Finance", "Self-Help"]
-series = ["This, Not That"]
+series = ["This Not That"]
 +++
 
 ## Why Should You Care?

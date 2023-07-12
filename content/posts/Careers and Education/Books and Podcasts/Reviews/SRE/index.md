@@ -5,7 +5,7 @@ author = "Nick Miethe"
 categories = ["Books", "Review", "Technical"]
 topics = ["Education"]
 tags = ["SRE", "Book Review", "Google", "Site Reliability Engineering"]
-series = ["Book Reviews - Tech"]
+series = ["Book Reviews Tech"]
 series_order = 1
 +++
 

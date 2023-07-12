@@ -5,7 +5,7 @@ author = "Nick Miethe"
 categories = ["Books", "Review"]
 topics = ["Education", "Leadership", "Consulting"]
 tags = ["Leadership", "Book Review", "Management", "Consulting", "Self-help", "Introversion"]
-series = ["Book Reviews - Leadership"]
+series = ["Book Reviews Leadership"]
 series_order = 1
 +++
 

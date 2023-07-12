@@ -5,7 +5,7 @@ author = "Nick Miethe"
 categories = ["Books", "Review", "Technical"]
 topics = ["Education"]
 tags = ["DevOps", "Book Review", "Architecture", "Domain-Driven Design"]
-series = ["Book Reviews - Tech"]
+series = ["Book Reviews Tech"]
 series_order = 2
 +++
 
