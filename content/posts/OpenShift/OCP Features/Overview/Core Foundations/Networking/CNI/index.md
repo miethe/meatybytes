@@ -6,7 +6,7 @@ description: "Overview of container networking (CNIs) in OpenShift and Kubernete
 tags: ["OpenShift", "CNI", "SDN", "OVN", "Multus", "Containers", "Networking", "Kubernetes"]
 categories: ["Technical", "Introduction"]
 topics: ["OpenShift", "Kubernetes", "Networking"]
-series: ["OpenShift Foundations: Networking"]
+series: ["OpenShift Foundations Networking"]
 series_order: 1
 ---
 

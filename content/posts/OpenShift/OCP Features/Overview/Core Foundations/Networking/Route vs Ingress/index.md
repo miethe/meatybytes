@@ -5,7 +5,7 @@ description: "In this post, we delve into the heart of OpenShift networking, com
 tags: ["OpenShift", "Routes", "Ingress", "Networking"]
 topics: ["OpenShift", "Kubernetes", "Networking"]
 categories: ["Technical", "Introduction"]
-series: ["OpenShift Foundations: Networking"]
+series: ["OpenShift Foundations Networking"]
 series_order: 3
 ---
 
