@@ -5,7 +5,7 @@ description: "A deep-dive into the value of case studies in the field of Platfor
 tags: ["Platform Engineering", "DevOps", "OpenShift", "Hybrid Cloud", "Business Transformation", "Case Studies", "Marketing", "Sales"]
 topics: ["Professional Interests", "Platform Engineering", "Business Transformation"]
 categories: ["Sales & Marketing", "Introduction", "Guide"]
-series: ["Sales & Marketing: Foundations"]
+series: ["Sales and Marketing Foundations"]
 series_order: 1
 ---
 

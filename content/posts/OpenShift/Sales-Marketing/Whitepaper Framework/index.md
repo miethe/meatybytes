@@ -5,7 +5,7 @@ description: "Dive into the world of technical whitepapers, and explore their va
 tags: ["Whitepapers", "Platform Engineering", "DevOps", "OpenShift", "Hybrid Cloud", "DORA", "DevEx"]
 topics: ["Professional Interests", "Platform Engineering", "Business Transformation"]
 categories: ["Sales & Marketing", "Introduction", "Guide"]
-series: ["Sales & Marketing: Foundations"]
+series: ["Sales and Marketing Foundations"]
 series_order: 2
 ---
 
