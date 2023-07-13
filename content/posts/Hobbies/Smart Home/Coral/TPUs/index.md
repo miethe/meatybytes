@@ -3,20 +3,20 @@ title: "Supercharge Your Smart Home with Google Coral TPUs"
 author: "Nick Miethe"
 date: 2023-06-08
 tags: ["Google Coral", "Smart Home", "OpenShift", "TPU", "AI/ML"]
-categories: ["Smart Home", "AI/ML", "Technical"]
-topics: ["Hobbies"]
-description: "An explanation of TPUs and how they work. Then an inventory of TPU models."
+categories: ["Smart Home", "Hobbies", "Technical"]
+topics: ["AI/ML", "Homelab", "Hardware"]
+description: "An explanation of TPUs and how they work, plus an overview on the inventory of TPU models."
 ---
 
 ## Intro
 
-Hello, MeatyBytes.io readers! It's Nick Miethe here, back with another deep dive into one of my passions. As you probably know, when I'm not busy spreading the good word of OpenShift or building the next piece of heirloom furniture for the house (or at maybe the garage), I'm probably tinkering with a new toy. Today is one of those days, where I get to marry two of my interests - **tech and home automation**. We're going to discuss an exciting product - the **Google Coral TPU** - and how it could revolutionize your smart home setup.
+Hello, [MeatyBytes.io](/) readers! It's Nick Miethe here, back with another deep dive into one of my passions. As you probably know, when I'm not busy spreading the good word of OpenShift or building the next piece of heirloom furniture for the house (or at maybe the garage), I'm probably tinkering with a new toy. Today is one of those days, where I get to marry two of my interests - **tech and home automation**. We're going to discuss an exciting product - the **Google Coral TPU** - and how it could revolutionize your smart home setup.
 
 At first glance, it's a tiny chip, but it's a powerhouse of ML processing that can enhance various applications in a smart home setting. Imagine having your home security system not just detecting movements, but also recognizing familiar faces or identifying suspicious activities based on patterns it learned! This is just a taste of what Google Coral TPUs can achieve, along with improving energy efficiency and response times for your devices.
 
 In this post, we'll talk about what Google Coral TPUs are (and aren't), their benefits, and how you can integrate them into your smart home; potentially, we'll even be using OpenShift to orchestrate the services in an upcoming post!
 
-In this post, we'll explore the world of Tensor Processing Units (TPUs), specifically Google's Coral TPU, and how this powerful technology can be harnessed to supercharge your smart home. As we delve into this exciting topic, we'll also demystify some of the more technical aspects, like Tensor cores and TensorFlow, and why TPUs sometimes outperform GPUs in certain tasks. Plus, we'll check out some alternatives to Coral and other tech that you could use instead of TPUs.
+In this post, we'll explore the world of **Tensor Processing Units (TPUs)**, specifically Google's Coral TPU, and how this powerful technology can be harnessed to supercharge your smart home. As we delve into this exciting topic, we'll also demystify some of the more technical aspects, like Tensor cores and TensorFlow, and why TPUs sometimes outperform GPUs in certain tasks. Plus, we'll check out some alternatives to Coral and other tech that you could use instead of TPUs.
 
 So, if you've been looking to bring more intelligence and efficiency to your smart home, stay tuned. This post could be the key to unlocking a whole new level of smart home automation. Let's get started!
 
