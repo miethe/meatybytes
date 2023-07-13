@@ -12,7 +12,7 @@ description: "Learn about various design patterns for the modern hybrid cloud wi
 
 ## Introduction
 
-Hello everyone, this is Nick Miethe from MeatyBytes.io, and today we are going to continue our journey through the world of design patterns in a modern hybrid cloud environment using OpenShift. This is part 2 of our series, and if you haven't checked out [part 1]({{< ref "pt 1" >}}), I highly recommend you do so to get up to speed.
+Hello everyone, this is Nick Miethe from MeatyBytes.io, and today we are going to continue our journey through the world of design patterns in a modern hybrid cloud environment using OpenShift. This is part 2 of our series, and if you haven't checked out [part 1]({{< ref "patterns pt 1" >}}), I highly recommend you do so to get up to speed.
 
 In the previous post, we discussed the first five design patterns: the **Federated Identity Pattern**, the **Service Mesh Pattern**, the **Multi-Cluster Management Pattern**, the **GitOps Pattern**, and the **Serverless Pattern**. Today, we will be continuing the series by exploring five more design patterns that have proven to be highly effective in the hybrid cloud setting.
 
