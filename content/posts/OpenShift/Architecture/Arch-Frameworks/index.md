@@ -1,5 +1,5 @@
 +++
-title = "Architectural Frameworks"
+title = "Perspective on the Evolution of Architectural Frameworks"
 description = '''
 Learn everything about Architectural Frameworks for systems and applications, and how they've developed into modern cloud native architectures.
 '''
@@ -14,7 +14,7 @@ series_order = 1
 
 ## What is an Architectural Framework
 
-An Architectural Framework is a set of best practices and guidelines for designing and operating reliable, secure, efficient, and cost-effective systems or applicationss. It is designed to help architects and developers make informed decisions about their architectures and identify potential issues before they become problems. Each framework provides a set of principles, questions, and best practices for designing, operating, and maintaining systems and apps in a variety of environments or deployment models.
+An Architectural Framework is a set of best practices and guidelines for designing and operating reliable, secure, efficient, and cost-effective systems or applications. It is designed to help architects and developers make informed decisions about their architectures and identify potential issues before they become problems. Each framework provides a set of principles, questions, and best practices for designing, operating, and maintaining systems and apps in a variety of environments or deployment models.
 
 ## Popular Frameworks: General Applications
 
