@@ -7,7 +7,7 @@ Non-Functional Requirements for OpenShift
 '''
 categories = ["Technical", "Introduction"]
 topics = ["OpenShift", "Kubernetes", "Solution Architecture"]
-tags = ["OpenShift", "NFRs", "SRE", "DevOps", "Architecture", "Platform Engineering"]
+tags = ["OpenShift", "NFR", "SRE", "DevOps", "Architecture", "Platform Engineering"]
 +++
 
 ## Introduction

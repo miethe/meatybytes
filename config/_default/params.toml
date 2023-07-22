@@ -12,7 +12,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-# mainSections = ["section1", "section2"]
+mainSections = ["posts", "resources"]
 # robots = ""
 
 disableImageOptimization = false
@@ -38,7 +38,7 @@ smartTOC = true
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/featured-ocp.png" # used in: hero, and card
   showRecent = true
-  showRecentItems = 10
+  showRecentItems = 9
   showMoreLink = true
   showMoreLinkDest = "/posts"
   cardView = true
@@ -47,7 +47,7 @@ smartTOC = true
 
 [article]
   showDate = true
-  showViews = false
+  showViews = true
   showLikes = false
   showDateUpdated = false
   showAuthor = true
@@ -59,7 +59,7 @@ smartTOC = true
   showDraftLabel = true
   showEdit = false
   showComments = true
-  # editURL = "https://github.com/username/repo/"
+  editURL = "https://github.com/miethe/meatybytes/tree/main/content"
   editAppendPath = true
   seriesOpened = true
   showHeadingAnchors = true
@@ -68,19 +68,19 @@ smartTOC = true
   showReadingTime = true
   showTableOfContents = true
   showRelatedContent = true
-  relatedContentLimit = 3
+  relatedContentLimit = 6
   showTaxonomies = true
   showAuthorsBadges = false
   showWordCount = false
   showSummary = true
-  sharingLinks = [ "linkedin", "twitter", "reddit"]
+  sharingLinks = [ "linkedin", "twitter", "reddit", "email", "whatsapp"]
 
 [list]
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showSummary = false
   showViews = false
   showLikes = false

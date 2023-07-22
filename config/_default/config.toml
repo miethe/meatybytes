@@ -37,7 +37,8 @@ disqusShortname = "meatybytes"
   home = ["HTML", "RSS", "JSON"]
 
 [related]
-  threshold = 0
+  threshold = 1
+  includeNewer = true
   toLower = false
 
     [[related.indices]]
