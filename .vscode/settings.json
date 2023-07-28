@@ -12,5 +12,6 @@
         "Tekton",
         "transformative",
         "Zigbee"
-    ]
+    ],
+    "svg.preview.background": "editor"
 }
