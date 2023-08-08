@@ -35,3 +35,5 @@ In the real world, I'm a Tech Consultant at a small start-up called BoxBoat, whi
 The Topics covered on a given Monday may not seem connected to Tuesday's post (and perhaps they aren't!), but I can promise that they are all part of the larger solution that is my knowledge base. And often times, each post is still being influenced by the others around it. So go, dive in and learn about the many topics I cover in this blog. Take a Byte, or 10 million, and tell me what you think!
 
 And please do consider a connect on LinkedIn or a message through here, or even shoot me an email. I'd love to chat and network with anyone interested in anything that would've brought you here!
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="25394e6a-749a-4b41-925e-902b23c4e549" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
