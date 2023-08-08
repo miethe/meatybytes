@@ -6,7 +6,7 @@ tags: ["OpenShift", "Serverless", "Virtualization", "DevSecOps", "Shift-Left", "
 categories: ["Technical", "Design Guide"]
 topics: ["OpenShift", "Kubernetes", "Solution Architecture", "Hybrid Cloud", "Platform Engineering"]
 series: ["OCP Solution Architectures"]
-series_order: 4
+series_order: 3
 ---
 
 ## Introduction

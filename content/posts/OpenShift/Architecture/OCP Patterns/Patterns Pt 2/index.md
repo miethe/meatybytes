@@ -6,7 +6,7 @@ tags: ["Architecture", "Patterns", "OpenShift", "Kubernetes", "Cloud", "Design P
 categories: ["Technical", "Design Guide"]
 topics: ["OpenShift", "Kubernetes", "Solution Architecture"]
 series: ["OCP Solution Architectures"]
-series_order: 3
+series_order: 2
 description: "Learn about various design patterns for the modern hybrid cloud with OpenShift."
 ---
 
