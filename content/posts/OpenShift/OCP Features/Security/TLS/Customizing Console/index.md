@@ -39,7 +39,7 @@ Some enterprises have strict TLS compliance policies that prohibit wildcard TLS 
 
 ## Configuring the OpenShift Console
 
-Customizing the **OpenShift Console URL** requires modifying the cluster ingress configuration at `ingress.config.openshift.io`. This involves adding a specific ingress definition and creating a new TLS certificate (if necessary). 
+Customizing the **OpenShift Console URL** requires modifying the cluster ingress configuration at `ingress.config.openshift.io`. This involves adding a specific ingress definition and creating a new TLS certificate (if necessary).
 
 While the modification is relatively straightforward, the official documentation from Red Hat can make it a bit confusing if you are editing an existing cluster.
 
@@ -150,7 +150,7 @@ There are a handful of issues that can arise during the configuration and custom
 
 ## Alternative: Associate TLS Certificate with the Ingress Controller
 
-If your goal is to simply change the default self-signed TLS cert from the default OpenShift network configuration, and you plan to use your own Wildcard TLS cert, it isn't necessary to change the Console URL! Instead, you can patch the `ingresscontroller` itself, applying your new Wildcard cert to the entire cluster. 
+If your goal is to simply change the default self-signed TLS cert from the default OpenShift network configuration, and you plan to use your own Wildcard TLS cert, it isn't necessary to change the Console URL! Instead, you can patch the `ingresscontroller` itself, applying your new Wildcard cert to the entire cluster.
 
 Use the following command to associate the certificate with the ingress controller:
 
@@ -164,7 +164,7 @@ Replace `custom-wildcard-certificate` with the name of the Secret holding your n
 
 Customizing the OpenShift Console URL empowers organizations to align with branding, enhance security, and control how external traffic is routed. Following this step-by-step guide, you can make your OpenShift environment uniquely yours.
 
-If you liked this, make sure you check out our content on other aspects of OpenShift, such as [Routes vs Ingress](/posts/openshift/ocp-features/overview/core-foundations/networking/route-vs-ingress/), [Security](/topics/security/), and [so much more](/posts/openshift/ocp-features/)!. And stay tuned for potentially more OpenShift customization tips, as well as a deeper dive on configuring your own TLS certs in OpenShift with the **cert-manager Operator**. Until next time!
+If you liked this, make sure you check out our content on other aspects of OpenShift, such as [Routes vs Ingress](/posts/openshift/ocp-features/overview/core-foundations/networking/route-vs-ingress/), [Security](/topics/security/), and [so much more](/posts/openshift/ocp-features/)!. And stay tuned for potentially more OpenShift customization tips, as well as a [recent post](/posts/openshift/ocp-features/security/tls/cert-mgr) on configuring your own TLS certs in OpenShift with the **cert-manager Operator**. Until next time!
 
 ## References
 

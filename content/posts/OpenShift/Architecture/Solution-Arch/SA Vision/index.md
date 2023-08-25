@@ -140,7 +140,7 @@ If you're interested in learning more, check out some of our other Architecture 
 
 ## References
 
-* [Solutions Architect's Handbook](https://www.amazon.com/Solutions-Architects-Handbook-Kick-start-architecture/dp/1801816611?crid=3E3LYHVH81CF4&keywords=solution+architecture&qid=1691511917&sprefix=solution+architectur%2Caps%2C77&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll1&tag=miethe-20&linkId=f0afcf537415a0e091a8658e2d8443e9&language=en_US&ref_=as_li_ss_tl) by Saurabh Shrivastava et al, or get the free audiobook from the (also) [free Audible trial](https://www.amazon.com/dp/B00NB86OYE/?ref_=assoc_tag_ph_1485906643682&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=miethe-20&linkId=2b49e5e8cc45e7af6489654b37506bbe)!
+* [Solutions Architect's Handbook](https://www.amazon.com/Solutions-Architects-Handbook-Kick-start-architecture/dp/1801816611?&linkCode=ll1&tag=miethe-20&linkId=4ec19cc7b7edc98f26664129282e1aa0&language=en_US&ref_=as_li_ss_tl&rel="sponsored") by Saurabh Shrivastava et al, or get the free audiobook from the (also) [free Audible trial](https://www.amazon.com/dp/B00NB86OYE/?ref_=assoc_tag_ph_1485906643682&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=miethe-20&linkId=2b49e5e8cc45e7af6489654b37506bbe)!
 * [The Architect's Toolkit | opengroup.org](https://www.opengroup.org/ArchitectsToolkit)
 * [The Modern History of Computing | Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/computing-history/)
 * [Microservices vs. Monolithic Architectures](https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices/)
