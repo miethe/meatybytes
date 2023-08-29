@@ -356,12 +356,25 @@ Consultants can follow a variety of paths after honing their skills in a consult
 * **Freelance or Boutique Consulting:** Some consultants decide to strike out on their own, opening boutique consulting firms or working as freelancers.
 * **Private Equity or Venture Capital:** Consultants with strong financial skills can transition into roles in private equity or venture capital firms, where they can leverage their strategic and financial expertise.
 
-## Additional Resources
+## Additional Resources & References
+
+{{< alert "book" >}}
+For even more reading recommendations, check out my [extensive business reading list](/resources/business-reading-list/), or one of my prior [book reviews](/posts/careers-and-education/books-and-podcasts/)!
+{{< /alert >}}
+
+* [Consultant Job Titles & What They Mean | My Consulting Offer](https://www.myconsultingoffer.org/cover-letter/consultant-job-titles/) - Titles at several of the largest firms
+* [Solution Architect Roles & Salaries](https://www.levels.fyi/t/solution-architect?countryId=254&compare=Accenture%2CAmazon%2CSAS+Software%2CMicrosoft%2CGoogle) - Find the roles and salaries at most companies!
 
 If you're considering a career in consulting, or would like to grow in your current role, here are a few resources to get you started:
 
-* "HBR’s 10 Must Reads: The Essentials" - A collection of the most seminal reads on management from nearly 100 years of Harvard Business Review publishing.
-* "The McKinsey Way" by Ethan Rasiel - An insider look at working at a consulting firm, with practical advice for succeeding in the intense environment.
-* "Flawless Consulting" by Peter Block - A step-by-step outline of the consulting process, emphasizing the importance of developing and maintaining authentic relationships.
-* "Linchpin" by Seth Godin - Advocates for seeing our work as an endeavor pursued with passion, purpose, and a unique vision.
-* "The Back of the Napkin" by Dan Roam - Advocates the power of visual thinking for working through complex problems and clearly communicating
+* ["HBR's 10 Must Reads 2023"](https://www.amazon.com/dp/1647824559?coliid=I1E0R929XKPMP3&colid=GXD3ZNTLLAV&psc=1&linkCode=ll1&tag=miethe-20&linkId=c83e6c572e5724fc81909ef2eb33ee65&language=en_US&ref_=as_li_ss_tl) - Highly recommended collection of articles from HBR, along with all other HBR collections!
+* ["The McKinsey Way"](https://www.amazon.com/McKinsey-Way-Ethan-M-Rasiel/dp/0070534489?crid=1M7O9QEHFA2VC&keywords=The+McKinsey+Way&qid=1693336424&s=books&sprefix=the+mckinsey+way%2Cstripbooks%2C104&sr=1-1&linkCode=ll1&tag=miethe-20&linkId=bd1322b6b1eb1f57324a49a74c91abcd&language=en_US&ref_=as_li_ss_tl) by Ethan Rasiel - An insider look at working at THE consulting firm, with practical advice for succeeding in the intense environment.
+* ["Flawless Consulting"](https://www.amazon.com/Flawless-Consulting-Guide-Getting-Expertise/dp/1394177305?crid=BZV5UEMZ4DRD&keywords=Flawless+Consulting&qid=1693336491&s=books&sprefix=flawless+consulting%2Cstripbooks%2C127&sr=1-1&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&linkCode=ll1&tag=miethe-20&linkId=2a282f2815fff134fbda787d1844b658&language=en_US&ref_=as_li_ss_tl) by Peter Block - A step-by-step outline of the consulting process, emphasizing the importance of developing and maintaining authentic relationships. A must read for anyone who affects change!
+* ["Productize"](https://www.amazon.com/dp/1736929615?coliid=I39G44BFEZ732S&colid=1TF81PWBX0D31&psc=1&linkCode=ll1&tag=miethe-20&linkId=23446b81459ba1f68e6d5c9c7f2ebe81&language=en_US&ref_=as_li_ss_tl) by Eisha Armstrong - A critical book for companies undergoing (or who should be) a shift to a product-mindset. Especially valuable for consultants and other professional services, when the product isn't as obvious.
+* ["The Back of the Napkin"](https://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697?crid=35PVIBDO7CEWB&keywords=The+Back+of+the+Napkin&qid=1693336764&s=books&sprefix=the+back+of+the+napkin%2Cstripbooks%2C98&sr=1-1&linkCode=ll1&tag=miethe-20&linkId=1e67ac8a4203b50011b44068eac9e5d7&language=en_US&ref_=as_li_ss_tl) by Dan Roam - Advocates the power of visual thinking for working through complex problems and clearly communicating
+
+{{< lead >}}
+If you're interested in checking out any of these books, consider trying out Audible from Amazon. With the below link, you can [start your Audible Premium Plus](https://www.amazon.com/dp/B00NB86OYE/?ref_=assoc_tag_ph_1485906643682&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=miethe-20&linkId=2b49e5e8cc45e7af6489654b37506bbe) trial and get **2 FREE audiobooks**, and if you decide to cancel by the end of your 30 day free trial, you still get to keep them!
+
+[Try Audible Premium Plus and Get Up to Two Free Audiobooks](https://www.amazon.com/dp/B00NB86OYE/?ref_=assoc_tag_ph_1485906643682&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=miethe-20&linkId=2b49e5e8cc45e7af6489654b37506bbe)
+{{< /lead >}}
