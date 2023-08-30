@@ -371,7 +371,9 @@ For even more reading recommendations, check out my [extensive business reading 
 * [Consultant Job Titles & What They Mean | My Consulting Offer](https://www.myconsultingoffer.org/cover-letter/consultant-job-titles/) - Titles at several of the largest firms
 * [Solution Architect Roles & Salaries](https://www.levels.fyi/t/solution-architect?countryId=254&compare=Accenture%2CAmazon%2CSAS+Software%2CMicrosoft%2CGoogle) - Find the roles and salaries at most companies!
 
-If you're considering a career in consulting, or would like to grow in your current role, here are a few resources to get you started:
+If you're considering a career in consulting, or would like to grow in your current role, here are a few <cite>resources[^1]</cite> to get you started:
+
+[^1]: The following contain affiliate links from which I earn a small commission off any purchase.
 
 * ["HBR's 10 Must Reads 2023"](https://www.amazon.com/dp/1647824559?coliid=I1E0R929XKPMP3&colid=GXD3ZNTLLAV&psc=1&linkCode=ll1&tag=miethe-20&linkId=c83e6c572e5724fc81909ef2eb33ee65&language=en_US&ref_=as_li_ss_tl) - Highly recommended collection of articles from HBR, along with all other HBR collections!
 * ["The McKinsey Way"](https://www.amazon.com/McKinsey-Way-Ethan-M-Rasiel/dp/0070534489?crid=1M7O9QEHFA2VC&keywords=The+McKinsey+Way&qid=1693336424&s=books&sprefix=the+mckinsey+way%2Cstripbooks%2C104&sr=1-1&linkCode=ll1&tag=miethe-20&linkId=bd1322b6b1eb1f57324a49a74c91abcd&language=en_US&ref_=as_li_ss_tl) by Ethan Rasiel - An insider look at working at THE consulting firm, with practical advice for succeeding in the intense environment.

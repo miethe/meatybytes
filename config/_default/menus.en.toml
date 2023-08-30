@@ -68,6 +68,11 @@
   weight = 20
 
 [[footer]]
+  name = "Site Disclosures | T&C"
+  pageRef = "disclosures"
+  weight = 25
+
+[[footer]]
   name = "GitHub"
   pre = "github"
   url = "https://github.com/miethe"
