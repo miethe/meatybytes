@@ -2,9 +2,9 @@
 title: "Progressive Delivery with Argo Rollouts on OpenShift"
 author: "Nick Miethe"
 date: "2023-06-04"
-tags: ["OpenShift", "Pipelines", "CI/CD", "GitOps", "Argo CD", "Argo Rollouts", "Progressive Delivery", "DevOps", "Deployment Strategies", "Canary", "Blue/Green"]
+tags: ["Pipelines", "CI/CD", "GitOps", "Argo CD", "Argo Rollouts", "Progressive Delivery", "Deployment Strategies", "Canary", "Blue/Green"]
 categories: ["Technical", "Introduction"]
-topics: ["OpenShift"]
+topics: ["OpenShift", "DevOps", "CI/CD", "GitOps"]
 description: "A introduction to Argo Rollouts and the deployment strategies it enables, plus a call-out to Red Hat's new related offering on OpenShift, Progressive Delivery."
 ---
 
@@ -18,7 +18,7 @@ Hello OpenShift enthusiasts, this is Nick Miethe from MeatyBytes.io. Today, we a
 
 Why is that important? Well, when utilized appropriately, the deployment model can enable reduced downtime and other deployment risks by progressively, and/or gradually, rolling out new features to users.
 
-![](progressive-delivery-dash.jpg)
+![Example dashboard of Argo Rollouts](progressive-delivery-dash.jpg)
 
 ## How Argo Rollouts Works
 
@@ -34,7 +34,7 @@ Regardless, Argo Rollouts is still an equally capable solution on OpenShift as i
 
 {{< lead >}}
 [Here](https://www.redhat.com/architect/blue-green-canary-argo-rollouts) is an excellent deployment guide from Red Hat.
-{{< lead >}}
+{{< /lead >}}
 
 ## Deployment Strategies
 
@@ -74,7 +74,7 @@ Stay tuned for more exciting updates from the world of OpenShift!
 
 1. [How to do blue/green and canary deployments with Argo Rollouts | Enable Architect](https://www.redhat.com/architect/blue-green-canary-argo-rollouts)
 2. [Learn about Progressive Application Delivery with GitOps](https://cloud.redhat.com/blog/learn-about-progressive-application-delivery-with-gitops)
-3. [Chapter 16 - Canarying Releases, Google SRE Book](https://sre.google/workbook/canarying-releases/) - Read my full review of this book [here](/posts/careers-and-education/books-and-podcasts/reviews/sre/)!
+3. [Chapter 16 - Canarying Releases, Google SRE Book](https://sre.google/workbook/canarying-releases/) - Read my full review of this book [here](/posts/careers-and-education/books-and-podcasts/reviews/sre/)
 4. [Argo Rollouts Official Documentation](https://argoproj.github.io/argo-rollouts/)
 
 {{< github repo="argoproj/rollouts-demo" >}}
