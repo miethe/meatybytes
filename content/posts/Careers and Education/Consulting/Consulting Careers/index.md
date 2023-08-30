@@ -4,7 +4,7 @@ date = 2023-08-27
 summary = "Discover the exciting field of consulting and learn about the roles, education, skills, and career paths for tech/IT and management consultants."
 tags = ["Tech Consulting", "Management Consulting", "Career Path"]
 topics = ["Career Development", "Consulting", "Business", "Leadership"]
-categories = ["Careers", "Introduction", "Guide"]
+categories = ["Career", "Introduction", "Guide"]
 +++
 
 ## Introduction
