@@ -59,11 +59,13 @@ Consultants often work on a project basis, often within a specific industry and/
 
 ### ...But Not Only You
 
-With that said, a common argument I've heard against consulting is in regards to the less experienced analysts and engineers on the front lines. A typical trope shows a new grad consultant informing a conference room full of experienced industry leaders on how they should run their company.
+With that said, a common argument I've heard against consulting is in regards to the less experienced analysts and engineers on the front lines. A typical trope shows a new grad consultant, with a masquerade of expertise, informing a conference room full of veteran industry leaders on how they should run their company.
 
-It's amusing, but also a fair concern! However, the true value of consulting isn't generally within the individuals; rather, it's the combined "hive-mind" of expertise in various domains of the entire firm. That analyst or associate in the conference room is just the firm's representative, and is a direct link for the hiring company to that wealth of expertise and knowledge.
+Hence the title of the post!
 
-### Until it Truly is YOU!
+It's amusing, but also a fair concern. However, the true value of consulting isn't generally within the individuals; rather, it's the combined "hive-mind" of expertise in various domains of the entire firm. That analyst or associate in the conference room is just the firm's representative, and is a direct link for the hiring company to that wealth of expertise and knowledge.
+
+### Until it Truly is YOU
 
 That said, as people build their careers as consultants, many will begin to develop eminence in their field. This personal brand is crucial, both for the individual to grow their career further, as well as for their firm to sell. Regardless of if that given individual is directly working on an engagement, their expertise backing those on the ground is the driving force for all related deals.
 
@@ -93,10 +95,10 @@ Just like in any other industry, the type of tasks an IT consulting firm focuses
 
 * **Strategy:**
   * **Sub-types:** IT Strategy, Business Strategy, Digital Transformation, Innovation Consulting
-  * **Description:** Involves developing and implementing strategic plans to leverage technology and achieve business objectives. Strategy consultants may work on projects such as IT visioning, business case development, and transformation roadmap creation.
+  * **Description:** Involves developing and implementing strategic plans to leverage technology and achieve business objectives. Strategy consultants may work on projects such as [IT visioning](/posts/openshift/architecture/solution-arch/sa-vision/), business case development, and transformation roadmap creation.
 * **Architecture:**
   * **Sub-types:** Enterprise Architecture, Solution Architecture, Technical Architecture (Software, Hardware, Network, etc), Information Architecture
-  * **Description:** Focuses on designing and planning technology solutions that align with a client's business objectives. Architecture consultants may work on projects such as IT architecture assessments, designing technical solutions, and creating architecture roadmaps.
+  * **Description:** Focuses on designing and planning technology solutions that align with a client's business objectives. Architecture consultants may work on projects such as IT architecture assessments, designing [technical solutions](/topics/solution-architecture/), and creating architecture roadmaps.
 * **Development & Operations:**
   * **Sub-types:** Software Development, Dev Methodologies (Agile/Waterfall), DevOps, Cloud/Distributed/Mainframe, IT Service Management (ITSM)
   * **Description:** Involves designing, building, and operating technology solutions that support a client's business operations. Development and operations consultants may work on projects such as software development, cloud migration, and IT service management. May also include support, system administration, automation, project management, and even staff augmentation.
@@ -109,6 +111,10 @@ In some cases, IT Consulting firms will also perform work as *System Integrators
 * **System Integration (SI):**
   * **Sub-types:** Enterprise Integration, Solution Integration, Technical Integration, Data Integration
   * **Description:** Involves integrating technology systems to support a client's business operations. System integration consultants may work on projects such as integrating enterprise software, integrating data systems, and testing and deploying technology solutions.
+
+{{< alert "logo" >}}
+For those interested in more information on Solution Architecture, check out my numerous posts on [Architecture](/posts/openshift/architecture/).
+{{< /alert >}}
 
 #### IT/Tech - Employers/Firms
 
@@ -359,7 +365,7 @@ Consultants can follow a variety of paths after honing their skills in a consult
 ## Additional Resources & References
 
 {{< alert "book" >}}
-For even more reading recommendations, check out my [extensive business reading list](/resources/business-reading-list/), or one of my prior [book reviews](/posts/careers-and-education/books-and-podcasts/)!
+For even more reading recommendations, check out my [extensive business reading list](/site-resources/business-reading-list/), or one of my prior [book reviews](/posts/careers-and-education/books-and-podcasts/)!
 {{< /alert >}}
 
 * [Consultant Job Titles & What They Mean | My Consulting Offer](https://www.myconsultingoffer.org/cover-letter/consultant-job-titles/) - Titles at several of the largest firms
