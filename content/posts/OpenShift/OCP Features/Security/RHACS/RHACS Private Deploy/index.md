@@ -2,12 +2,14 @@
 title = "Deploying Red Hat Advanced Cluster Security (RHACS) in a Private OpenShift Cluster"
 date = 2023-03-20
 description = '''
-Learn how to deploy RHACS in a Private cluster
+Learn how to deploy Advanced Cluster Security in a Private OpenShift cluster.
 '''
-categories = ["Technical"]
-topics = ["OpenShift"]
-tags = ["Technical Guide", "RHACS", "Security", "Private Network"]
+categories = ["Technical", "Introduction", "Guide"]
+topics = ["OpenShift", "Security", "ACS", "DevSecOps"]
+tags = ["RHACS", "Trivy", "DAST", "SAST", "IAST", "StackRox", "eBPF", "OPA", "SCA", "DevOps", "Private Network"]
 author = "Nick Miethe"
+series = ["Advanced Cluster Security"]
+series_order = 2
 +++
 
 Today, we'll be exploring **Red Hat Advanced Cluster Security** (RHACS) and how to deploy it within a private OpenShift cluster. RHACS is an end-to-end Kubernetes-native security solution that provides deep visibility and control to minimize the risk area and provide the necessary governance and control for your OpenShift clusters.
@@ -16,7 +18,7 @@ Today, we'll be exploring **Red Hat Advanced Cluster Security** (RHACS) and how 
 **For More Information** See my [prior write-up]({{< ref "rhacs foundations" >}}) on the basics of RHACS
 {{< /alert >}}
 
-## Why RHACS?
+## Why Red HAt Advanced Cluster Security (RHACS)?
 
 RHACS helps to identify, prioritize, and resolve the most critical security risks and vulnerabilities in your clusters. It offers several key features to enhance the security of your OpenShift cluster:
 
@@ -46,7 +48,7 @@ This requires the following:
 Remember to routinely update your Scanner's vulnerability list!
 {{< /alert >}}
 
-Images can be downloaded via OLM and the OperatorHub with a internet-connected workstation and then pushed to your mirror registry. You can also manually pull and retag using tools such as Skopeo, Docker, etc, described below.
+Images can be downloaded via **OLM** and the **OperatorHub** with an internet-connected workstation and then pushed to your mirror registry. You can also manually pull and retag using tools such as **Skopeo**, **Docker**, etc, described below.
 
 The images are as follows:
 
@@ -71,13 +73,13 @@ docker push <new_image>
 
 You can also mirror entire registries, which you can read more about in my post on the [Integrated OCP Registry]({{< ref "local registry" >}}). You can also see further examples in [this post by Zhimin Wen](https://zhimin-wen.medium.com/openshift-4-10-image-mirroring-for-airgap-environment-f6bed61ea719).
 
-### Deploying the Operator
+### Deploying the RHACS Operator
 
 {{< alert "redhat" >}}
 See [Red Hat's docs](https://docs.openshift.com/acs/4.0/installing/installing_ocp/prerequisites-ocp.html) for prerequisite and sizing information.
 {{< /alert >}}
 
-RHACS can be deployed on OpenShift using the RHACS Operator. Here's how to get started:
+RHACS can be deployed on OpenShift using the **RHACS Operator**. Here's how to get started:
 
 * **Install the RHACS Operator**
 
@@ -135,7 +137,7 @@ In order to begin monitoring a cluster, whether it be the hosting cluster or ano
 
 * **Networking**: Ensure that RHACS can communicate with your cluster nodes and that it can pull images from Red Hat's registry or your private registry.
 * **Compatibility**: RHACS is compatible with OpenShift 4.6 and later. Ensure your cluster meets this requirement.
-* **RBAC**: Consider who should have access to RHACS and what actions they should be able to perform. RHACS offers granular role-based access control (RBAC) to ensure that users only have access to the necessary resources and actions.
+* **RBAC**: Consider who should have access to RHACS and what actions they should be able to perform. RHACS offers granular role-based access control (**RBAC**) to ensure that users only have access to the necessary resources and actions.
 * **Storage**: RHACS requires a persistent storage backend for its components. Make sure you have enough storage available and that it's scalable.
 * **Monitoring and Alerting**: Integrate RHACS with your existing monitoring and alerting solutions to receive notifications on critical security issues and policy
 
