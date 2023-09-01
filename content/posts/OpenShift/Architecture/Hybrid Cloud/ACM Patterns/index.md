@@ -2,7 +2,7 @@
 title: "9 Game-Changing OpenShift Patterns Introduced by ACM"
 date: 2023-09-01
 description: "Explore the architectural patterns for OpenShift clusters enabled by Red Hat's Advanced Cluster Management. From hybrid and multi-cloud clusters on-demand clusters, this post is your comprehensive guide."
-tags: ["Advanced Cluster Management", "ACS", "Ansible", "Design Patterns", "GitOps", "Backstage", "OTP", "Submariner", "Istio", "Skupper", "Edge", "NFRs", "Cloud Native", "Multi-cloud"]
+tags: ["Advanced Cluster Management", "ACS", "Ansible", "Design Patterns", "GitOps", "Backstage", "OTP", "Submariner", "Istio", "Skupper", "Edge", "NFR", "Cloud Native", "Multi-cloud"]
 topics: ["OpenShift", "Platform Engineering", "ACM", "Solution Architecture", "Kubernetes", "Patterns", "Hybrid Cloud"]
 categories: ["Technical", "Architecture"]
 ---
