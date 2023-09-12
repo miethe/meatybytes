@@ -232,3 +232,4 @@ If you're running OpenShift, or are considering it, and could utilize some of th
 * [Envoy Proxy](https://www.envoyproxy.io/)
 * [Jaeger Tracing](https://www.jaegertracing.io/)
 * [Kiali](https://kiali.io/)
+* [Design Considerations at the Edge of the ServiceMesh](https://cloud.redhat.com/blog/design-considerations-at-the-edge-of-the-servicemesh)
